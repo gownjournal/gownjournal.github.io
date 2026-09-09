@@ -20,11 +20,11 @@ This guide sets out what the names usually mean, why they drift between makers, 
 
 ## The shades, from coolest to warmest
 
-**Stark white** (also optic white, pure white, bright white). A blue-toned white with no yellow in it, the colour of printer paper. Only synthetic fibres reach it; silk cannot be bleached that far without damage. It is the least common choice and the most unforgiving: it reflects a great deal of light and photographs as a flat block with little visible detail.
+**Stark white** (also optic or pure white). A blue-toned white with no yellow in it, the colour of printer paper. Only synthetic fibres reach it; silk cannot be bleached that far without damage. It is the least common choice and the most unforgiving: it reflects a great deal of light and photographs as a flat block.
 
-**Natural white** (also diamond white, silk white, soft white). The palest white that a natural fibre can be. It has a trace of warmth that the eye reads as white rather than cream, particularly in daylight. In a photograph next to stark white it looks faintly warm; on its own it looks white. It is the usual "white" in silk dresses.
+**Natural white** (also diamond white, silk white, soft white). The palest white that a natural fibre can be. It has a trace of warmth that the eye reads as white rather than cream. Next to stark white it looks faintly warm; on its own it looks white. It is the usual "white" in silk dresses.
 
-**Ivory.** A white with a clear warmth, from a hint of cream to something close to a very pale beige. This is where the names fall apart, because one maker's ivory is another's natural white and a third's light champagne. Ivory is the most common bridal colour by a wide margin, and for most skin tones it is the safer starting point.
+**Ivory.** A white with a clear warmth, from a hint of cream to something close to a very pale beige. This is where the names fall apart, because one maker's ivory is another's natural white and a third's light champagne. Ivory is by far the most common bridal colour, and for most skin tones the safer starting point.
 
 **Champagne.** A pale gold or warm beige, sometimes with a pink or grey cast. Definitely not white. It suits warm skin, looks rich in satin, and reads as vintage in lace. Some dresses combine a champagne lining with an ivory lace over it, which is a way of warming the colour without committing to it.
 
@@ -42,7 +42,7 @@ This guide sets out what the names usually mean, why they drift between makers, 
 
 Three reasons, and none of them is dishonesty.
 
-**Fibre.** Silk, polyester, nylon tulle and cotton take dye differently and reflect light differently. An ivory silk and an ivory polyester dyed to the same recipe will not match.
+**Fibre.** Silk, polyester, nylon tulle and cotton take dye differently. An ivory silk and an ivory polyester dyed to the same recipe will not match.
 
 **Dye lot.** Fabric is dyed in batches, and batches vary. Two rolls of the same ivory from the same mill can differ visibly. Good makers buy all the fabric for one dress from one lot; ask.
 
@@ -58,7 +58,7 @@ Undertone is the cool, warm or neutral cast beneath the surface colour of your s
 
 **Broadly:** warm undertones (golden, olive, peach) suit ivory, champagne and warmer natural whites; stark white can make them look yellow. Cool undertones (pink, blue, rosy) suit natural white, stark white and blush; a heavy champagne can look muddy. Neutral undertones suit most of the range and should choose on fabric and mood instead.
 
-The paper test is a rough guide. The proper test is a swatch of the actual fabric against your skin, in daylight and in evening light, and that is covered at the end.
+The paper test is rough. The proper test is a swatch against your skin, covered at the end.
 
 ## How fabric changes the colour
 
@@ -76,7 +76,7 @@ Ask what lining colours are available. Changing the lining is often the simplest
 
 ## Photography and venue lighting
 
-The colour you choose is the colour in the photographs more than the colour in the mirror, so think about the light you will be married in.
+The colour that lasts is the one in the photographs, so think about the light you will be married in.
 
 **Daylight outdoors** is cool and even. It flatters natural white and ivory and can make stark white glare.
 
@@ -95,7 +95,7 @@ An ivory veil against an ivory satin dress can look either identical or two shad
 ## How to compare swatches properly
 
 - Ask for a swatch of each colour you are considering, in the fabric of the dress, with the lining attached if there is one.
-- Compare them at a north-facing window in the middle of the day. Avoid direct sun and avoid evening light.
+- Compare them at a north-facing window in the middle of the day, out of direct sun.
 - Hold each against your collarbone, not next to each other on a table.
 - Repeat under warm indoor light in the evening, or at the venue if you can get there, and photograph each swatch against your skin in both lights with the same camera.
 - Decide with a day between looking and ordering. Every swatch looks the same after twenty minutes.

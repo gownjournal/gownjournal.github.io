@@ -24,7 +24,7 @@ Three reasons.
 
 **They describe one feature and ignore the rest.** "Pear" says your hips are wider than your shoulders. It says nothing about whether your waist is defined, where it sits, or how long your legs are, and those three things change the advice completely.
 
-**They are aesthetic verdicts in disguise.** An apple is a body to be hidden, a pear a body to be balanced, an hourglass a body to be shown. Whatever you think of that, it is not useful information at a fitting. A fitter does not need to know what to hide. She needs to know where the dress should be fitted and where it should let go.
+**They are aesthetic verdicts in disguise.** An apple is a body to be hidden, a pear a body to be balanced, an hourglass a body to be shown. A fitter does not need to know what to hide. She needs to know where the dress should be fitted and where it should let go.
 
 **They ignore height.** A tall pear and a petite pear look different in the same skirt.
 
@@ -40,7 +40,7 @@ Stand in front of a mirror in something fitted and compare the width of your sho
 
 **Hips wider.** The skirt is the decision. An A-line that flares from the natural waist glides over the hips without stopping at them. A mermaid or trumpet, which is fitted through the hips, will show them, which is either exactly what you want or exactly what you do not. Bodice details (a wider neckline, a small sleeve, a beaded shoulder) draw attention upward and even the proportions.
 
-**Roughly equal.** Most silhouettes work and the decision moves to the other two relationships below.
+**Roughly equal.** Most silhouettes work; the decision moves to the next two relationships.
 
 ### How defined the waist is
 
@@ -54,11 +54,11 @@ Look at the difference between your waist and your hips. A pronounced difference
 
 This is the relationship nobody puts on the chart, and it matters as much as the other two. Find your natural waist (bend sideways; the crease is it) and notice how far it sits from the underarm and from the hip bone. A short torso has a high waist and a long leg line. A long torso has a low waist and comparatively shorter legs.
 
-**A high waist** looks best with the dress waistline dropped slightly below natural, or with a basque waist that dips to a V. A dress fitted exactly at the natural waist can make the top half look cramped. Empire lines, which raise the waist further, tend to shorten the torso even more and are usually the wrong direction.
+**A high waist** looks best with the dress waistline dropped slightly below natural, or with a basque waist that dips to a V. A dress fitted exactly at the natural waist can make the top half look cramped. Empire lines, which raise the waist further, are usually the wrong direction.
 
 **A low waist** looks best with the waistline at the natural waist or a touch above it, which lengthens the leg. A dropped waist lowers the line further and can make the legs look short. Empire lines and raised A-lines are natural friends here.
 
-Ready-to-wear dresses have a fixed waist position, and moving it is a serious alteration. Made-to-measure work places it where your body wants it, which is one of the quieter arguments for having a dress made.
+Ready-to-wear dresses have a fixed waist position, and moving it is a serious alteration. Made-to-measure work places it where your body wants it.
 
 ## Putting the three together
 
