@@ -1,0 +1,16 @@
+{
+  "name": "gown-journal",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "The Gown Journal, an independent editorial guide to wedding dresses",
+  "scripts": {
+    "build": "eleventy",
+    "serve": "eleventy --serve",
+    "start": "eleventy --serve"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.6",
+    "markdown-it-anchor": "^9.2.0"
+  }
+}

@@ -1,0 +1,24 @@
+---
+permalink: /llms.txt
+eleventyExcludeFromCollections: true
+---
+# {{ site.name }}
+
+> {{ site.description }}
+
+Independent, unsponsored, no affiliate links, no prices. Guides are reviewed with input from bridal designers, pattern cutters and seamstresses.
+
+## Guides
+{% for p in collections.posts %}
+- [{{ p.data.title }}]({{ p.url | absUrl(site.url) }}): {{ p.data.description }}
+{%- endfor %}
+
+## Topics
+{% for c in categories %}
+- [{{ c.name }}]({{ ('/' ~ c.slug ~ '/') | absUrl(site.url) }}): {{ c.description }}
+{%- endfor %}
+
+## About
+- [About]({{ '/about/' | absUrl(site.url) }})
+- [Editorial policy]({{ '/editorial-policy/' | absUrl(site.url) }})
+- [Contact]({{ '/contact/' | absUrl(site.url) }})

@@ -1,0 +1,44 @@
+[
+  {
+    "slug": "silhouettes",
+    "name": "Silhouettes",
+    "title": "Wedding dress silhouettes",
+    "description": "A-line, mermaid, trumpet, ball gown, sheath and empire: what each shape does, who it flatters, and how to choose between them.",
+    "nav": true
+  },
+  {
+    "slug": "fabrics",
+    "name": "Fabrics & Lace",
+    "title": "Wedding dress fabrics and lace",
+    "description": "Tulle, satin, mikado, chiffon, crepe, and the many types of lace. How each one drapes, breathes, creases and photographs.",
+    "nav": true
+  },
+  {
+    "slug": "style",
+    "name": "Style",
+    "title": "Wedding dress styles",
+    "description": "Boho, minimalist, classic, modern. Understanding the aesthetic families and the details that define them.",
+    "nav": true
+  },
+  {
+    "slug": "planning",
+    "name": "Planning",
+    "title": "Planning your wedding dress",
+    "description": "Timelines, fittings, buying online versus in a salon, made to measure versus off the rack, and the questions to ask before you sign.",
+    "nav": true
+  },
+  {
+    "slug": "accessories",
+    "name": "Accessories",
+    "title": "Veils, shoes and what goes underneath",
+    "description": "Veil lengths, jewellery by neckline, shoes, undergarments, and how to finish a look without overloading it.",
+    "nav": true
+  },
+  {
+    "slug": "care",
+    "name": "Care",
+    "title": "Caring for your wedding dress",
+    "description": "Steaming, stain emergencies, cleaning and preservation after the wedding.",
+    "nav": false
+  }
+]

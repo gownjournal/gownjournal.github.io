@@ -1,0 +1,22 @@
+---
+layout: base.njk
+title: "All guides"
+description: "Every guide on The Gown Journal, newest first: silhouettes, fabrics, style, planning, accessories and care."
+permalink: /guides/
+---
+<section class="wrap page-head">
+  <h1>All guides</h1>
+  <p class="lede">Everything we have published, newest first. Or browse <a href="/#topics-title">by topic</a>.</p>
+</section>
+<section class="wrap">
+  <ul class="post-list">
+  {%- for p in collections.posts %}
+    <li>
+      <p class="eyebrow">{{ p.data.category | catName(categories) }}</p>
+      <h2><a href="{{ p.url }}">{{ p.data.title }}</a></h2>
+      <p>{{ p.data.description }}</p>
+      <p class="meta"><time datetime="{{ p.date | isoDate }}">{{ p.date | longDate }}</time> · {{ p.templateContent | readTime }} min read</p>
+    </li>
+  {%- endfor %}
+  </ul>
+</section>

@@ -1,0 +1,61 @@
+---
+layout: base.njk
+description: "An independent editorial guide to wedding dresses: silhouettes, fabrics, lace, fittings, timelines and the questions to ask before you commit. No sponsors, no affiliate links."
+---
+<section class="hero wrap">
+  <p class="eyebrow">Independent. Unsponsored. Plain English.</p>
+  <h1>Understand the dress before you choose it.</h1>
+  <p class="lede">Most of what is written about wedding dresses is written to sell one. The Gown Journal exists to explain: what a silhouette actually does to a body, why two lace dresses look nothing alike, how many fittings to expect, and what to ask before you sign.</p>
+  <div class="hero-links">
+    <a class="btn" href="/guides/">Browse all guides</a>
+    <a class="btn btn-ghost" href="/guides/wedding-dress-silhouettes-explained/">Start with silhouettes</a>
+  </div>
+</section>
+
+<section class="wrap" aria-labelledby="featured-title">
+  <h2 id="featured-title" class="section-title">Latest guides</h2>
+  <ul class="card-grid featured">
+  {%- for p in collections.posts | limit(6) %}
+    <li class="card{% if loop.first %} card-lead{% endif %}">
+      <p class="eyebrow">{{ p.data.category | catName(categories) }}</p>
+      <h3><a href="{{ p.url }}">{{ p.data.title }}</a></h3>
+      <p class="card-desc">{{ p.data.description }}</p>
+      <p class="meta"><time datetime="{{ p.date | isoDate }}">{{ p.date | longDate }}</time> · {{ p.templateContent | readTime }} min</p>
+    </li>
+  {%- endfor %}
+  </ul>
+</section>
+
+<section class="wrap topics" aria-labelledby="topics-title">
+  <h2 id="topics-title" class="section-title">By topic</h2>
+  <ul class="topic-grid">
+  {%- for c in categories %}
+    {%- set count = collections.posts | inCategory(c.slug) | length %}
+    <li>
+      <a href="/{{ c.slug }}/">
+        <span class="topic-name">{{ c.name }}</span>
+        <span class="topic-desc">{{ c.description }}</span>
+        <span class="topic-count">{{ count }} guide{{ "s" if count != 1 }}</span>
+      </a>
+    </li>
+  {%- endfor %}
+  </ul>
+</section>
+
+<section class="wrap manifesto">
+  <h2 class="section-title">How we work</h2>
+  <div class="manifesto-grid">
+    <div>
+      <h3>No sponsors, no affiliate links</h3>
+      <p>We do not rank salons, recommend brands, or earn a commission on anything you buy. If that changes, it will say so on the page.</p>
+    </div>
+    <div>
+      <h3>No prices</h3>
+      <p>Prices vary by country, by designer, by fabric and by year. Any number we printed would be wrong for someone. Instead, each guide tells you what to ask so you understand what is included.</p>
+    </div>
+    <div>
+      <h3>Checked by people who cut patterns</h3>
+      <p>Guides are reviewed with input from designers, pattern cutters and seamstresses. Where opinion differs, we say so. <a href="/editorial-policy/">Editorial policy</a>.</p>
+    </div>
+  </div>
+</section>

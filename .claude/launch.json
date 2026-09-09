@@ -1,0 +1,6 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    { "name": "gown-journal", "runtimeExecutable": "npx", "runtimeArgs": ["eleventy", "--serve", "--port=8088"], "port": 8088 }
+  ]
+}

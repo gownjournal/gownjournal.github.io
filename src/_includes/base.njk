@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{%- set pageTitle = (title ~ " | " ~ site.name) if title else (site.name ~ " | " ~ site.tagline) %}
+{%- set pageDesc = description or site.description %}
+{%- set pageUrl = page.url | absUrl(site.url) %}
+{%- set ogImage = (image or "/img/og-default.png") | absUrl(site.url) %}
+<title>{{ pageTitle }}</title>
+<meta name="description" content="{{ pageDesc }}">
+<link rel="canonical" href="{{ pageUrl }}">
+<meta property="og:site_name" content="{{ site.name }}">
+<meta property="og:type" content="{{ 'article' if type == 'article' else 'website' }}">
+<meta property="og:title" content="{{ pageTitle }}">
+<meta property="og:description" content="{{ pageDesc }}">
+<meta property="og:url" content="{{ pageUrl }}">
+<meta property="og:image" content="{{ ogImage }}">
+<meta property="og:locale" content="en_US">
+{%- if type == 'article' %}
+<meta property="article:published_time" content="{{ page.date | isoDate }}">
+<meta property="article:modified_time" content="{{ (updated or page.date) | isoDate }}">
+<meta property="article:section" content="{{ category | catName(categories) }}">
+{%- endif %}
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ pageTitle }}">
+<meta name="twitter:description" content="{{ pageDesc }}">
+<meta name="twitter:image" content="{{ ogImage }}">
+<link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ '/feed.xml' | absUrl(site.url) }}">
+<link rel="icon" href="/img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "{{ site.url }}/#org",
+      "name": "{{ site.name }}",
+      "url": "{{ site.url }}/",
+      "logo": { "@type": "ImageObject", "url": "{{ '/img/logo.svg' | absUrl(site.url) }}" },
+      "foundingDate": "{{ site.founded }}",
+      "description": {{ site.description | dump | safe }}
+    },
+    {
+      "@type": "WebSite",
+      "@id": "{{ site.url }}/#website",
+      "url": "{{ site.url }}/",
+      "name": "{{ site.name }}",
+      "inLanguage": "en",
+      "publisher": { "@id": "{{ site.url }}/#org" }
+    }
+    {%- if type == 'article' %},
+    {
+      "@type": "Article",
+      "@id": "{{ pageUrl }}#article",
+      "headline": {{ title | dump | safe }},
+      "description": {{ pageDesc | dump | safe }},
+      "image": "{{ ogImage }}",
+      "inLanguage": "en",
+      "articleSection": "{{ category | catName(categories) }}",
+      "wordCount": {{ content | wordCount }},
+      "datePublished": "{{ page.date | isoDate }}",
+      "dateModified": "{{ (updated or page.date) | isoDate }}",
+      "author": { "@type": "Organization", "name": "{{ site.author }}", "url": "{{ '/about/' | absUrl(site.url) }}" },
+      "publisher": { "@id": "{{ site.url }}/#org" },
+      "mainEntityOfPage": { "@type": "WebPage", "@id": "{{ pageUrl }}" },
+      "isPartOf": { "@id": "{{ site.url }}/#website" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "{{ site.url }}/" },
+        { "@type": "ListItem", "position": 2, "name": "{{ category | catName(categories) }}", "item": "{{ ('/' ~ category ~ '/') | absUrl(site.url) }}" },
+        { "@type": "ListItem", "position": 3, "name": {{ title | dump | safe }}, "item": "{{ pageUrl }}" }
+      ]
+    }
+    {%- if faq %},
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+      {%- for item in faq %}
+        { "@type": "Question", "name": {{ item.q | dump | safe }}, "acceptedAnswer": { "@type": "Answer", "text": {{ item.a | dump | safe }} } }{{ "," if not loop.last }}
+      {%- endfor %}
+      ]
+    }
+    {%- endif %}
+    {%- endif %}
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="/" aria-label="{{ site.name }}, home">
+      <svg class="brand-mark" width="26" height="26" viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="30" fill="#efe6dc"/><path d="M32 11c-4 9-13 15-13 29 0 8 6 13 13 13s13-5 13-13c0-14-9-20-13-29z" fill="#8d5a44"/></svg>
+      <span class="brand-name">{{ site.name }}</span>
+    </a>
+    <nav class="nav" aria-label="Main">
+      {%- for c in categories %}{% if c.nav %}
+      <a href="/{{ c.slug }}/"{% if category == c.slug or page.url == '/' ~ c.slug ~ '/' %} aria-current="page"{% endif %}>{{ c.name }}</a>
+      {%- endif %}{% endfor %}
+      <a href="/about/"{% if page.url == '/about/' %} aria-current="page"{% endif %}>About</a>
+    </nav>
+  </div>
+</header>
+<main id="main">
+{{ content | safe }}
+</main>
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div>
+      <p class="footer-brand">{{ site.name }}</p>
+      <p class="muted">{{ site.tagline }}. Independent, unsponsored, and free of affiliate links.</p>
+    </div>
+    <div>
+      <p class="footer-head">Guides</p>
+      <ul>
+        {%- for c in categories %}
+        <li><a href="/{{ c.slug }}/">{{ c.name }}</a></li>
+        {%- endfor %}
+        <li><a href="/guides/">All guides</a></li>
+      </ul>
+    </div>
+    <div>
+      <p class="footer-head">The Journal</p>
+      <ul>
+        <li><a href="/about/">About</a></li>
+        <li><a href="/editorial-policy/">Editorial policy</a></li>
+        <li><a href="/contact/">Contact</a></li>
+        <li><a href="/privacy/">Privacy</a></li>
+        <li><a href="/feed.xml">RSS feed</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <p class="muted">© {{ site.year }} {{ site.name }}. Nothing here is a substitute for a fitting with a professional who can see you in the dress.</p>
+  </div>
+</footer>
+</body>
+</html>

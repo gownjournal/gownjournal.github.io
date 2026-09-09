@@ -1,0 +1,68 @@
+---
+layout: base.njk
+---
+<article class="post wrap">
+  <nav class="crumbs" aria-label="Breadcrumb">
+    <a href="/">Home</a> <span aria-hidden="true">/</span>
+    <a href="/{{ category }}/">{{ category | catName(categories) }}</a>
+  </nav>
+  <header class="post-head">
+    <h1>{{ title }}</h1>
+    <p class="lede">{{ description }}</p>
+    <p class="meta">
+      By <a href="/about/">{{ site.author }}</a>
+      · <time datetime="{{ page.date | isoDate }}">{{ page.date | longDate }}</time>
+      {%- if updated %} · Updated <time datetime="{{ updated | isoDate }}">{{ updated | longDate }}</time>{% endif %}
+      · {{ content | readTime }} min read
+    </p>
+  </header>
+
+  {%- set headings = content | toc %}
+  {%- if headings.length > 2 %}
+  <nav class="toc" aria-labelledby="toc-title">
+    <p id="toc-title" class="toc-title">In this guide</p>
+    <ol>
+      {%- for h in headings %}
+      <li><a href="#{{ h.id }}">{{ h.text }}</a></li>
+      {%- endfor %}
+    </ol>
+  </nav>
+  {%- endif %}
+
+  <div class="post-body">
+    {{ content | safe }}
+  </div>
+
+  {%- if faq %}
+  <section class="faq" aria-labelledby="faq-title">
+    <h2 id="faq-title">Frequently asked questions</h2>
+    {%- for item in faq %}
+    <details>
+      <summary>{{ item.q }}</summary>
+      <p>{{ item.a }}</p>
+    </details>
+    {%- endfor %}
+  </section>
+  {%- endif %}
+
+  <aside class="author-box">
+    <p class="author-name">{{ site.author }}</p>
+    <p>{{ site.authorBio }} Read our <a href="/editorial-policy/">editorial policy</a>.</p>
+  </aside>
+</article>
+
+{%- set others = collections.posts | related(page.url, category, 3) %}
+{%- if others.length %}
+<section class="related wrap" aria-labelledby="related-title">
+  <h2 id="related-title" class="section-title">Keep reading</h2>
+  <ul class="card-grid">
+    {%- for p in others %}
+    <li class="card">
+      <p class="eyebrow">{{ p.data.category | catName(categories) }}</p>
+      <h3><a href="{{ p.url }}">{{ p.data.title }}</a></h3>
+      <p class="card-desc">{{ p.data.description }}</p>
+    </li>
+    {%- endfor %}
+  </ul>
+</section>
+{%- endif %}

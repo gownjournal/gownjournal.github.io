@@ -1,0 +1,32 @@
+---
+layout: base.njk
+pagination:
+  data: categories
+  size: 1
+  alias: cat
+permalink: "/{{ cat.slug }}/"
+eleventyComputed:
+  title: "{{ cat.title }}"
+  description: "{{ cat.description }}"
+---
+<section class="wrap page-head">
+  <p class="eyebrow">Topic</p>
+  <h1>{{ cat.title }}</h1>
+  <p class="lede">{{ cat.description }}</p>
+</section>
+<section class="wrap">
+  {%- set list = collections.posts | inCategory(cat.slug) %}
+  {%- if list.length %}
+  <ul class="post-list">
+  {%- for p in list %}
+    <li>
+      <h2><a href="{{ p.url }}">{{ p.data.title }}</a></h2>
+      <p>{{ p.data.description }}</p>
+      <p class="meta"><time datetime="{{ p.date | isoDate }}">{{ p.date | longDate }}</time> · {{ p.templateContent | readTime }} min read</p>
+    </li>
+  {%- endfor %}
+  </ul>
+  {%- else %}
+  <p class="muted">Guides in this topic are on the way. In the meantime, <a href="/guides/">browse everything</a>.</p>
+  {%- endif %}
+</section>
