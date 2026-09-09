@@ -2,7 +2,7 @@
   "name": "The Gown Journal",
   "tagline": "A plain-English guide to choosing a wedding dress",
   "description": "The Gown Journal is an editorial guide to wedding dresses: silhouettes, fabrics, lace, fittings, timelines, veils and the questions to ask before you commit. Written for brides who want to understand before they choose.",
-  "url": "https://gownjournal.github.io",
+  "url": "https://roeesasson-commits.github.io",
   "lang": "en",
   "author": "The Gown Journal Editors",
   "authorBio": "Guides written with input from bridal designers, pattern cutters and seamstresses, and edited to be readable by someone hearing the word tulle for the first time.",
@@ -15,7 +15,7 @@
   },
   "sisterSite": {
     "name": "מגזין הכלה (Hebrew)",
-    "url": "https://kala-blog.github.io/"
+    "url": "https://roeesasson-commits.github.io/kala-blog/"
   },
   "founded": 2026,
   "year": 2026
