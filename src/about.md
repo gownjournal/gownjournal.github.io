@@ -1,16 +1,22 @@
 ---
 layout: base.njk
 title: "About The Gown Journal"
-description: "Who writes The Gown Journal, why it exists, what you will find here and what you will not."
+description: "Who publishes The Gown Journal, why it exists, what you will find here and what you will not."
 permalink: /about/
 ---
 <div class="wrap prose">
 
 # About The Gown Journal
 
-The Gown Journal is an independent editorial guide to wedding dresses. It was started in 2026 out of a simple frustration: a bride who begins to look for a dress is handed thousands of photographs and almost no explanation. What is the difference between a trumpet and a mermaid? Why does one lace dress cost four times another? How many fittings are normal? What do you ask in a salon without feeling foolish?
+The Gown Journal is an editorial guide to wedding dresses. It was started in 2026 out of a simple frustration: a bride who begins to look for a dress is handed thousands of photographs and almost no explanation. What is the difference between a trumpet and a mermaid? Why does one lace dress cost four times another? How many fittings are normal? What do you ask in a salon without feeling foolish?
 
 The answers exist. They live in the heads of designers, pattern cutters and seamstresses, and they rarely make it onto the page, because most of what is written about wedding dresses is written to sell one.
+
+## Who publishes it
+
+The Journal is published by the team behind [Lace & Love](https://shany-sasson-wedding-dresses.com/), the made-to-measure bridal studio of designer [Shany Sasson](https://www.shanysasson.com/), based in Hod Hasharon, Israel, and working with brides internationally. We are saying this at the top rather than in a footer because it is the kind of thing a reader should know before trusting a guide.
+
+What it means in practice: the people checking these guides are the people who cut, fit and sew dresses every week, and that is where the detail comes from. Where a guide points to one of the studio's own pages (a measurement guide, a collection that shows a fabric on a finished dress), it says so in the sentence. The guides themselves are written to be useful whether or not you ever visit the studio, and most readers never will.
 
 ## What you will find here
 
@@ -19,14 +25,18 @@ Long-form guides, each on a single subject, organised into six topics: silhouett
 ## What you will not find here
 
 - **Prices.** They vary by country, designer, fabric and year. Any figure we printed would be wrong for someone. Each guide instead lists the questions that tell you what is included in what you are offered.
-- **Rankings of salons or designers.** We do not review businesses.
-- **Sponsored content or affiliate links.** Nothing on this site earns a commission. If that ever changes, the page in question will say so at the top.
+- **Rankings of salons or designers.** We do not review or rate other businesses, and we do not write about competitors.
+- **Affiliate links or third-party sponsorship.** No guide earns a commission, and no outside company pays for placement. If that ever changes, the page in question will say so at the top.
 
-## Who writes it
+## How guides are written
 
-Guides are written by the Journal's editors with input from people who make dresses for a living: bridal designers, pattern cutters and seamstresses working in made-to-measure and in ready-to-wear. Where professionals disagree, the guide says so rather than picking a side.
+Guides are drafted by the Journal's editors and checked with people who make dresses for a living: the studio's designer, pattern cutter and seamstresses, and outside professionals where a subject falls beyond made-to-measure work. Where professionals disagree, the guide says so rather than picking a side.
 
 Our [editorial policy](/editorial-policy/) explains how guides are researched, reviewed and updated.
+
+## In Hebrew
+
+A companion journal in Hebrew, with its own guides written for brides in Israel, is at [מגזין הכלה]({{ site.sisterSite.url }}).
 
 ## Contact
 

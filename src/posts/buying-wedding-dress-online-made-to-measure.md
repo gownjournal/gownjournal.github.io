@@ -26,7 +26,7 @@ None of these is a bad reason. The question is whether the process on the other 
 
 **A named designer and a real studio.** You should be able to see who makes the dress, where, and what else they have made. Photographs of the same dress on different real customers, not only on one model, are the single most reassuring thing a site can show.
 
-**A measurement guide you can follow.** Usually a video and a diagram, covering bust, underbust, waist, hips, hollow-to-hem, shoulder width, arm length and several more. A good designer asks you to measure twice, asks for photographs in fitted clothing, and queries anything that does not add up.
+**A measurement guide you can follow.** Usually a video and a diagram, covering bust, underbust, waist, hips, hollow-to-hem, shoulder width, arm length and several more. A good designer asks you to measure twice, asks for photographs in fitted clothing, and queries anything that does not add up. For a sense of what a complete guide looks like, the studio that publishes this journal has its [measurement guide](https://shany-sasson-wedding-dresses.com/pages/measurement-guide) and a page on [how made to measure works remotely](https://shany-sasson-wedding-dresses.com/pages/how-made-to-measure-works) open to anyone; other good studios publish something similar.
 
 **A conversation before the order.** Made to measure is not a shopping cart. Expect questions about the venue, the season, the shoes, the underwear you plan to wear, and whether you intend to change size. If nobody asks, nobody is thinking about fit.
 

@@ -43,7 +43,8 @@
       "url": "{{ site.url }}/",
       "logo": { "@type": "ImageObject", "url": "{{ '/img/logo.svg' | absUrl(site.url) }}" },
       "foundingDate": "{{ site.founded }}",
-      "description": {{ site.description | dump | safe }}
+      "description": {{ site.description | dump | safe }},
+      "parentOrganization": { "@type": "Organization", "name": "{{ site.publisher.name }}", "url": "{{ site.publisher.url }}" }
     },
     {
       "@type": "WebSite",
@@ -116,7 +117,7 @@
   <div class="wrap footer-grid">
     <div>
       <p class="footer-brand">{{ site.name }}</p>
-      <p class="muted">{{ site.tagline }}. Independent, unsponsored, and free of affiliate links.</p>
+      <p class="muted">{{ site.tagline }}. Published by the team behind {{ site.publisher.name }}, a made-to-measure bridal studio. No affiliate links, no third-party sponsorship, no prices.</p>
     </div>
     <div>
       <p class="footer-head">Guides</p>
@@ -135,6 +136,7 @@
         <li><a href="/contact/">Contact</a></li>
         <li><a href="/privacy/">Privacy</a></li>
         <li><a href="/feed.xml">RSS feed</a></li>
+        <li><a href="{{ site.sisterSite.url }}" lang="he">{{ site.sisterSite.name }}</a></li>
       </ul>
     </div>
   </div>

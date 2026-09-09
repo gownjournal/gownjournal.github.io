@@ -1,6 +1,6 @@
 # The Gown Journal
 
-An independent, English-language editorial site about wedding dresses. Static, built with Eleventy 3, hosted for free.
+An English-language editorial site about wedding dresses, published by the team behind Lace & Love (relationship disclosed on the About page, in the footer and inline wherever a guide links to the studio). Static, built with Eleventy 3, hosted for free.
 
 ## What is here
 

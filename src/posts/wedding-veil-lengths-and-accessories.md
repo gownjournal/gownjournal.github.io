@@ -99,6 +99,6 @@ The shoe question is not about looks. It is about six hours.
 
 <div class="note">
 
-Accessories only look right if the dress underneath is fitted properly and the shoes were present when the hem was set. The [fittings guide](/guides/wedding-dress-fittings-guide/) explains when each of those decisions is locked in. And if the dress is heavily lace, the [lace types guide](/guides/lace-types-wedding-dresses/) will help you describe it to a veil maker.
+Accessories only look right if the dress underneath is fitted properly and the shoes were present when the hem was set. The [fittings guide](/guides/wedding-dress-fittings-guide/) explains when each of those decisions is locked in. And if the dress is heavily lace, the [lace types guide](/guides/lace-types-wedding-dresses/) will help you describe it to a veil maker. For examples of veils cut to match specific dresses, the studio that publishes this journal shows its [veils](https://shany-sasson-wedding-dresses.com/collections/wedding-veils) alongside the gowns they were made for.
 
 </div>

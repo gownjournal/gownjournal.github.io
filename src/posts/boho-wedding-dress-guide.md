@@ -103,6 +103,6 @@ The rule is subtraction. Choose the cut, choose the fabric, choose one detail, a
 
 <div class="note">
 
-The texture in a boho dress almost always comes from lace, and the two laces that matter most here are very different from each other; the [lace types guide](/guides/lace-types-wedding-dresses/) explains why. And because the soft, unstructured cut is one silhouette choice among several, the [silhouettes guide](/guides/wedding-dress-silhouettes-explained/) is worth reading alongside this one.
+The texture in a boho dress almost always comes from lace, and the two laces that matter most here are very different from each other; the [lace types guide](/guides/lace-types-wedding-dresses/) explains why. And because the soft, unstructured cut is one silhouette choice among several, the [silhouettes guide](/guides/wedding-dress-silhouettes-explained/) is worth reading alongside this one. If you want to see the three sub-styles on actual dresses, the studio that publishes this journal specialises in boho and its [boho collection](https://shany-sasson-wedding-dresses.com/collections/boho-wedding-dresses) covers all three.
 
 </div>

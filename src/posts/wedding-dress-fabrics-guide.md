@@ -64,6 +64,8 @@ A very fine, sheer, lightweight fabric, nearly always used in several layers ove
 - **Drawbacks.** It creases, it drifts in a breeze, and it holds no structure at all. A corseted bodice in chiffon does not work; the chiffon has to sit over something firmer.
 - **Suits.** Empire lines, soft A-lines, boho, beach and destination weddings.
 
+Chiffon and soft tulle are the two fabrics most often confused, because both are light and both float. The difference is that chiffon flows and tulle holds air. Our publisher's studio has a short comparison, [chiffon versus tulle on a boho skirt](https://shany-sasson-wedding-dresses.com/blogs/news/chiffon-vs-tulle-wedding-dress-boho-skirt), with the two side by side on finished dresses.
+
 ## Crepe
 
 A matte fabric with a slightly pebbled surface and, often, a small amount of stretch. It falls straight and clean.

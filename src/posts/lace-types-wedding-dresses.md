@@ -120,6 +120,6 @@ Keep the dress hanging in a breathable bag, never plastic, and away from direct 
 
 <div class="note">
 
-Lace is one fabric among many, and how it behaves depends on what is under it. The [fabrics guide](/guides/wedding-dress-fabrics-guide/) covers the silks, crepes and tulles it is usually paired with. For the dresses that use lace most freely, see the [boho wedding dress guide](/guides/boho-wedding-dress-guide/).
+Lace is one fabric among many, and how it behaves depends on what is under it. The [fabrics guide](/guides/wedding-dress-fabrics-guide/) covers the silks, crepes and tulles it is usually paired with. For the dresses that use lace most freely, see the [boho wedding dress guide](/guides/boho-wedding-dress-guide/). To see several of these laces on finished dresses rather than as swatches, the studio that publishes this journal keeps a [full lace collection](https://shany-sasson-wedding-dresses.com/collections/full-lace-wedding-dresses) photographed on real brides.
 
 </div>
