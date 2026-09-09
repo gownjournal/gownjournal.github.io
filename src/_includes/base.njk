@@ -44,7 +44,7 @@
       "logo": { "@type": "ImageObject", "url": "{{ '/img/logo.svg' | absUrl(site.url) }}" },
       "foundingDate": "{{ site.founded }}",
       "description": {{ site.description | dump | safe }},
-      "parentOrganization": { "@type": "Organization", "name": "{{ site.publisher.name }}", "url": "{{ site.publisher.url }}" }
+      "parentOrganization": { "@type": "Organization", "name": {{ site.publisher.name | dump | safe }}, "url": "{{ site.publisher.url }}" }
     },
     {
       "@type": "WebSite",
