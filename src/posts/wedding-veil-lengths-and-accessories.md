@@ -50,6 +50,14 @@ The middle path is common: wear the veil for the ceremony and the formal photogr
 
 **Plain veil with a lace dress.** If the dress has lace, embroidery or beading, the veil should be plain. Two patterns next to each other fight, and the dress loses.
 
+<figure>
+<div class="figure-pair">
+<img src="/img/photos/veil-plain-tulle.jpg" alt="Floor-length plain soft tulle wedding veil worn from a comb, no edging." loading="lazy">
+<img src="/img/photos/veil-lace-edge.jpg" alt="Wedding veil in soft tulle with a floral French lace edge." loading="lazy">
+</div>
+<figcaption>Left: a plain soft tulle veil, the right choice over a lace dress. Right: a lace-edged veil, which supplies detail to a plain dress. Photo: Lace &amp; Love, the studio that publishes this journal.</figcaption>
+</figure>
+
 **Lace-edged veil with a plain dress.** A crepe, mikado or satin dress with no decoration can take a veil with a lace edge or a scattering of beading. The veil supplies the detail the dress does not have.
 
 **Match the lace if you do use it.** If the veil has lace and the dress has lace, they must be the same lace, or close enough that nobody could tell. Ask whether the maker can edge a veil with the dress's own lace. Our [guide to lace types](/guides/lace-types-wedding-dresses/) explains why Chantilly next to guipure looks like a mistake.

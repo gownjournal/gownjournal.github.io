@@ -48,6 +48,11 @@ The three boho sub-styles are romantic, clean (or urban) and free-spirited. The 
 
 The version most people picture. Soft lace, usually Chantilly or a fine embroidered tulle, over a nude or ivory lining; long or bell sleeves; a V or scoop neckline; an open or buttoned back; a slight train. The silhouette is an empire or a soft A-line. The mood is Edwardian, pastoral, slightly vintage. It suits gardens, barns, woodland and warm evenings. Its risk is sweetness: too much lace, too many ruffles and a flower crown together tip it toward fancy dress.
 
+<figure>
+<img class="narrow" src="/img/photos/camille-boho-lace-chiffon.jpg" alt="Bride in a soft boho wedding dress: French lace bodice with a deep V neckline over a flowing chiffon skirt, satin sash at the natural waist, open back." loading="lazy">
+<figcaption>Romantic boho: lace over chiffon, a sash instead of a fixed waist, one detail (the deep V) and nothing else. Photo: Lace &amp; Love, the studio that publishes this journal.</figcaption>
+</figure>
+
 ### Clean or urban boho
 
 The version for brides who like the softness but not the sentiment. A bias-cut crepe or silk slip, a cowl neck, a single detail such as one lace sleeve, a bare back or a row of buttons to the floor. No visible pattern, or a guipure panel used graphically. The silhouette is a sheath or a very narrow A-line. It suits city weddings, restaurants, registry offices and brides who want to look like themselves at the party afterward. Its risk is that, stripped of its one detail, it stops being boho at all and becomes minimalist, which is fine, but is a different appointment.
@@ -55,6 +60,11 @@ The version for brides who like the softness but not the sentiment. A bias-cut c
 ### Free-spirited boho
 
 The version closest to the word's origin. Guipure or crochet lace, cotton eyelet, fringe, tiered skirts, embroidery in colour, a bare shoulder, perhaps a short hem or a slit. Fabrics are often cotton-based and the dress may be unlined in places. It suits beaches, festivals, small outdoor ceremonies and brides who intend to dance barefoot. Its risk is the highest of the three: with fringe, tiers, embroidery and a crown all at once, the dress becomes a look rather than a gown. Pick two elements and let the rest be plain.
+
+<figure>
+<img class="narrow" src="/img/photos/ana-open-back-high-slit.jpg" alt="Bride in a boho lace and chiffon wedding dress with an open back and a high slit, photographed outdoors." loading="lazy">
+<figcaption>Free-spirited boho: lace over chiffon with an open back and a high slit. Two details, and the fabric kept plain. Photo: Lace &amp; Love, the studio that publishes this journal.</figcaption>
+</figure>
 
 ## Which fabrics work for a boho dress?
 

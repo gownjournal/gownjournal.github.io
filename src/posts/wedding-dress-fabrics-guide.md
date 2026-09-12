@@ -28,6 +28,11 @@ If you have not yet settled the shape, our [guide to silhouettes](/guides/weddin
 
 A fine net, from stiff to almost silken depending on the weave and fibre. It is the fabric that keeps full skirts in the air, and in its softest forms it makes floating overlays and veils.
 
+<figure>
+<img class="narrow" src="/img/photos/nora-lace-tulle.jpg" alt="Wedding dress with a sweetheart lace bodice and a soft tulle skirt that falls in light layers." loading="lazy">
+<figcaption>Soft tulle in a skirt: volume with almost no weight, and the lace bodice above it stays the focus. Photo: Lace &amp; Love, the studio that publishes this journal.</figcaption>
+</figure>
+
 - **Feel.** Light, airy and almost weightless in a single layer. In six layers over a petticoat, no longer weightless.
 - **Look.** Soft, romantic and luminous in natural light. It photographs beautifully outdoors.
 - **Drawbacks.** It snags on rings, heels and rough surfaces. It tears more easily than any other bridal fabric. It shows every mark.
@@ -58,6 +63,11 @@ A relative of satin: thicker, with a subtle texture and a matte or semi-matte fi
 ## Chiffon
 
 A very fine, sheer, lightweight fabric, nearly always used in several layers over a lining.
+
+<figure>
+<img class="narrow" src="/img/photos/eloise-lace-chiffon-seated.jpg" alt="Seated bride in a wedding dress with a vintage lace bodice and a chiffon skirt spread around her." loading="lazy">
+<figcaption>Chiffon in a skirt: it pools when you sit and moves when you walk, which is why it suits outdoor weddings and unstructured dresses. Photo: Lace &amp; Love, the studio that publishes this journal.</figcaption>
+</figure>
 
 - **Feel.** The most breathable bridal fabric there is. The natural choice for a summer wedding outdoors.
 - **Look.** Soft, fluid, slightly Grecian. It catches wind and moves with the body.

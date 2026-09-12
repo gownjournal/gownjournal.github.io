@@ -10,7 +10,7 @@ layout: base.njk
     <h1>{{ title }}</h1>
     <p class="lede">{{ description }}</p>
     <p class="meta">
-      By <a href="/about/">{{ site.author }}</a>
+      By <a href="/about/#author" rel="author">{{ site.author }}</a>, {{ site.authorTitle | lower }}
       · <time datetime="{{ page.date | isoDate }}">{{ page.date | longDate }}</time>
       {%- if updated %} · Updated <time datetime="{{ updated | isoDate }}">{{ updated | longDate }}</time>{% endif %}
       · {{ content | readTime }} min read
@@ -47,7 +47,8 @@ layout: base.njk
 
   <aside class="author-box">
     <p class="author-name">{{ site.author }}</p>
-    <p>{{ site.authorBio }} Read our <a href="/editorial-policy/">editorial policy</a>.</p>
+    <p class="author-title">{{ site.authorTitle }}</p>
+    <p>{{ site.authorBio }} <a href="/about/#author">More about the author</a> · <a href="/editorial-policy/">Editorial policy</a>.</p>
   </aside>
 </article>
 

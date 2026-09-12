@@ -4,8 +4,8 @@
   "description": "The Gown Journal is an editorial guide to wedding dresses: silhouettes, fabrics, lace, fittings, timelines, veils and the questions to ask before you commit. Written for brides who want to understand before they choose.",
   "url": "https://gownjournal.github.io",
   "lang": "en",
-  "author": "The Gown Journal Editors",
-  "authorBio": "Guides written with input from bridal designers, pattern cutters and seamstresses, and edited to be readable by someone hearing the word tulle for the first time.",
+  "author": "Shany Sasson",
+  "authorBio": "Shany Sasson is a third-generation bridal designer and the founder of Lace & Love. Her studio in Hod Hasharon, Israel, makes wedding dresses to measure for brides locally and, through the online studio, in the United States and Europe. She checks every guide against what she sees at fittings each week, and the Journal's editors handle the writing.",
   "email": "hello@gownjournal.example",
   "publisher": {
     "name": "Lace & Love",
@@ -19,5 +19,15 @@
   },
   "founded": 2026,
   "year": 2026,
-  "gaId": ""
+  "gaId": "",
+  "authorTitle": "Bridal designer, founder of Lace & Love",
+  "authorUrl": "https://www.shanysasson.com/",
+  "authorSameAs": [
+    "https://www.shanysasson.com/",
+    "https://shany-sasson-wedding-dresses.com/pages/about",
+    "https://www.instagram.com/lace_and_love_brides/",
+    "https://www.facebook.com/shanysasson.bridal.fashion.home",
+    "https://www.pinterest.com/LaceandLoveBrides",
+    "https://www.etsy.com/shop/LaceAndLoveBrides"
+  ]
 }

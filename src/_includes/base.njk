@@ -60,6 +60,17 @@
       }
     },
     {
+      "@type": "Person",
+      "@id": "{{ site.url }}/#author",
+      "name": {{ site.author | dump | safe }},
+      "jobTitle": {{ site.authorTitle | dump | safe }},
+      "description": {{ site.authorBio | dump | safe }},
+      "url": "{{ site.authorUrl }}",
+      "sameAs": {{ site.authorSameAs | dump | safe }},
+      "worksFor": { "@type": "Organization", "name": {{ site.publisher.name | dump | safe }}, "url": "{{ site.publisher.url }}" },
+      "knowsAbout": ["Wedding dresses", "Made-to-measure bridal wear", "Bridal lace", "Boho wedding dresses", "Dress fittings"]
+    },
+    {
       "@type": "WebSite",
       "@id": "{{ site.url }}/#website",
       "url": "{{ site.url }}/",
@@ -79,7 +90,7 @@
       "wordCount": {{ content | wordCount }},
       "datePublished": "{{ page.date | isoDate }}",
       "dateModified": "{{ (updated or page.date) | isoDate }}",
-      "author": { "@type": "Organization", "name": "{{ site.author }}", "url": "{{ '/about/' | absUrl(site.url) }}" },
+      "author": { "@id": "{{ site.url }}/#author" },
       "publisher": { "@id": "{{ site.url }}/#org" },
       "mainEntityOfPage": { "@type": "WebPage", "@id": "{{ pageUrl }}" },
       "isPartOf": { "@id": "{{ site.url }}/#website" }

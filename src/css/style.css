@@ -178,3 +178,8 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 500; line-height: 1.15; mar
 }
 
 .post-body img.narrow { max-width: 400px; display: block; }
+
+.author-title { margin: 0 0 0.4rem; font-size: 0.85rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--accent); }
+.figure-pair { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; align-items: start; }
+.figure-pair img { width: 100%; height: auto; }
+@media (max-width: 520px) { .figure-pair { grid-template-columns: 1fr; } }

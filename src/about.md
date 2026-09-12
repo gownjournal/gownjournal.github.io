@@ -28,9 +28,17 @@ Long-form guides, each on a single subject, organised into six topics: silhouett
 - **Rankings of salons or designers.** We do not review or rate other businesses, and we do not write about competitors.
 - **Affiliate links or third-party sponsorship.** No guide earns a commission, and no outside company pays for placement. If that ever changes, the page in question will say so at the top.
 
+<h2 id="author">The author</h2>
+
+Every guide on the Journal is published under the name of **Shany Sasson**, bridal designer and founder of Lace & Love. She is a third-generation designer; her studio in Hod Hasharon, Israel, makes dresses to measure for brides locally and, through the online studio, in the United States and Europe. She checks every guide against what she sees at fittings each week: which silhouettes brides regret, which laces snag, where measurements go wrong when taken at home.
+
+The writing itself is done with the Journal's editors, and outside professionals are consulted where a subject falls beyond made-to-measure work (dry cleaning, for example). Where professionals disagree, the guide says so rather than picking a side.
+
+You can find her at [shanysasson.com](https://www.shanysasson.com/), on [Instagram](https://www.instagram.com/lace_and_love_brides/) and on [Pinterest](https://www.pinterest.com/LaceandLoveBrides).
+
 ## How guides are written
 
-Guides are drafted by the Journal's editors and checked with people who make dresses for a living: the studio's designer, pattern cutter and seamstresses, and outside professionals where a subject falls beyond made-to-measure work. Where professionals disagree, the guide says so rather than picking a side.
+Guides start from the questions brides actually ask at consultations and in messages to the studio. A draft is written, checked by the designer against real fittings, and edited for plain English. Guides carry a publication date and an update date when revised.
 
 Our [editorial policy](/editorial-policy/) explains how guides are researched, reviewed and updated.
 

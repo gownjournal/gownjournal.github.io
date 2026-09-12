@@ -20,6 +20,12 @@ A decade ago, buying a wedding dress without trying it on would have sounded rec
 
 Three reasons come up again and again. The style they want is not available locally, or only in one salon at a price they cannot justify. They dislike the salon experience: the appointment, the audience, the pressure. Or they have a body that standard sizes do not fit, and a made-to-measure dress from a small designer is the first thing that has ever fitted properly.
 
+<div class="note">
+
+**What 156 brides said afterwards.** We read every verified review left for the studio that publishes this journal, 156 of them, all from brides who ordered made to measure without a single in-person fitting. Nearly one in five (19%) opened by saying she had been nervous or hesitant about buying a wedding dress online. Almost half (48%) wrote about the fit, and 12% mentioned having alterations done locally, which is roughly the share we would expect for a dress made from self-taken measurements. More than a quarter (28%) singled out communication with the designer during the making. The average rating was 4.99 out of 5. The nerves, in other words, are normal, and the process is what settles them.
+
+</div>
+
 None of these is a bad reason. The question is whether the process on the other end is sound.
 
 ## What does a good online made-to-measure process look like?

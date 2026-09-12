@@ -92,6 +92,14 @@ Lace made elsewhere is not automatically inferior, and much of it is sold under 
 
 Because "lace dress" fixes almost nothing. Consider what varies: the type of lace, the colour of the lining beneath it, whether the lace is applied over a fitted lining or floats over a soft one, whether the motifs are placed by hand or cut from a roll, the scale of the pattern against the size of the bride, and how much of the dress is covered. A Chantilly overlay on a bias-cut silk slip and a guipure bodice over a structured corset are both lace dresses. They share nothing.
 
+<figure>
+<div class="figure-pair">
+<img src="/img/photos/anya-fitted-lace-sleeve.jpg" alt="Wedding dress with long fitted sleeves in vintage French lace, the pattern visible on the arms." loading="lazy">
+<img src="/img/photos/aurelia-beaded-lace.jpg" alt="Wedding dress in beaded lace with three-quarter sleeves, the beading catching the light on the bodice." loading="lazy">
+</div>
+<figcaption>Two lace dresses from the same studio. Left: a fine vintage French lace, fitted to the arm. Right: a beaded lace with a raised, heavier surface. Same word on the label, different fabrics. Photo: Lace &amp; Love, the studio that publishes this journal.</figcaption>
+</figure>
+
 When you save a photograph, work out what you actually like (the fineness of the pattern, the movement, the skin showing through, the graphic outline) and describe that at the appointment.
 
 ## What is the difference between appliqué and all-over lace?
