@@ -22,6 +22,11 @@ Most dresses go through three or four fittings. The exact number depends on how 
 
 **The shoes.** From the second fitting onward, the exact shoes you will wear, not a similar pair. Hem length is set to the heel, and two centimetres of difference shows. If you plan to change into flats for dancing, bring both pairs and say so, because a hem set for heels will trail once you switch.
 
+<figure>
+<img src="/img/photos/fitting-studio.jpg" alt="Bridal designer adjusting the shoulder of a long-sleeved lace wedding dress on a bride standing in a bright studio, with a camera on a tripod to one side." loading="lazy">
+<figcaption>A fitting at the studio. The designer checks the shoulder line while the bride stands as she will at the ceremony. Photo: Lace &amp; Love, the studio that publishes this journal.</figcaption>
+</figure>
+
 **The underwear.** The bra, cups, shapewear and knickers you will wear on the day. A dress fitted over a different bra fits a different body. Decide this before the second fitting, not after. Our [guide to what goes under the dress](/guides/what-to-wear-under-wedding-dress/) covers the options.
 
 **Photographs of details.** If you have asked for a change, bring a picture of what you mean. "A bit more open at the back" is a conversation; a photograph is an instruction.

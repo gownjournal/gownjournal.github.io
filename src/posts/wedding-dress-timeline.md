@@ -20,6 +20,11 @@ faq:
 
 **Made to measure with a designer.** The dress is built for you, from a sketch and a set of measurements through to the last hem stitch. The most control, and the longest timeline. Six to nine months, occasionally more.
 
+<figure>
+<img class="narrow" src="/img/photos/atelier-timeline.jpg" alt="Fitting room in a bridal studio: a round mirror, sheer white curtains, a wooden stool and dresses hanging on a rail." loading="lazy">
+<figcaption>Made to measure happens in a room like this, in three or four appointments spread over months. The waiting between them is where the timeline goes. Photo: Lace &amp; Love, the studio that publishes this journal.</figcaption>
+</figure>
+
 **Ordered from a maker through a salon.** You try a sample, the salon orders the design in the size nearest yours, and it is altered when it arrives. Typically four to six months, most of it waiting for the maker.
 
 **Off the rack or sample.** You buy the dress that is in the shop and have it altered. One to two months, and sometimes less. This is also the route for sample sales, where the salon sells the dresses it has been using for fittings.

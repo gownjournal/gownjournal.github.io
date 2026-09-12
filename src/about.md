@@ -28,6 +28,11 @@ Long-form guides, each on a single subject, organised into six topics: silhouett
 - **Rankings of salons or designers.** We do not review or rate other businesses, and we do not write about competitors.
 - **Affiliate links or third-party sponsorship.** No guide earns a commission, and no outside company pays for placement. If that ever changes, the page in question will say so at the top.
 
+<figure class="author-photo">
+<img src="/img/photos/fitting-studio.jpg" alt="Shany Sasson adjusting a lace wedding dress on a bride during a fitting at her studio." loading="lazy">
+<figcaption>Shany Sasson at a fitting in the studio.</figcaption>
+</figure>
+
 <h2 id="author">The author</h2>
 
 Every guide on the Journal is published under the name of **Shany Sasson**, bridal designer and founder of Lace & Love. She is a third-generation designer; her studio in Hod Hasharon, Israel, makes dresses to measure for brides locally and, through the online studio, in the United States and Europe. She checks every guide against what she sees at fittings each week: which silhouettes brides regret, which laces snag, where measurements go wrong when taken at home.

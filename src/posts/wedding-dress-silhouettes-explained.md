@@ -97,6 +97,14 @@ The waistline is raised to just under the bust, and the fabric falls loosely fro
 
 If you take one thing from this guide, make it this. The single most important measurement in a fitted dress is the point where the skirt stops being fitted and begins to open. On a mermaid it is at or below the knee. On a trumpet it is mid-thigh. On an A-line it is the waist. On a ball gown it is the waist, with structure added.
 
+<figure>
+<div class="figure-pair">
+<img src="/img/photos/tiered-chiffon-aline.jpg" alt="Bride in an A-line wedding dress with a fitted lace bodice and a tiered chiffon skirt that flares from the waist." loading="lazy">
+<img src="/img/photos/juno-fitted-slit.jpg" alt="Close view of a bride in a fitted lace wedding dress with a sweetheart neckline, arms raised, the lace following the body." loading="lazy">
+</div>
+<figcaption>Left: an A-line, flaring from the waist. Right: a fitted lace bodice that stays close through the hips. Same lace, a different flare point, a different evening. Photo: Lace &amp; Love, the studio that publishes this journal.</figcaption>
+</figure>
+
 Two dresses can share a name and feel entirely different because of a few centimetres in that point. A designer working made-to-measure can place it exactly where it suits your leg length and your plans for the evening. In a ready-to-wear dress it is fixed, and the question to ask is whether the flare can be raised or lowered in alterations. Often it cannot.
 
 ## A table for the first appointment

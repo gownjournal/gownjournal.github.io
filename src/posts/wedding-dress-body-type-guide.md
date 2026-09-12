@@ -34,6 +34,11 @@ So the more useful approach is to look at the body the way a pattern cutter does
 
 The three relationships that decide which dress suits you are shoulders against hips, how defined the waist is, and where the natural waist sits.
 
+<figure>
+<img class="narrow" src="/img/photos/aline-body-type.jpg" alt="Model in an A-line lace wedding dress with flutter sleeves and a V neckline, standing in a studio." loading="lazy">
+<figcaption>An A-line in lace: fitted through the bodice, flaring from the natural waist, sleeves that soften the shoulder. The starting point for most proportions. Photo: Lace &amp; Love, the studio that publishes this journal.</figcaption>
+</figure>
+
 ### Shoulders against hips
 
 Stand in front of a mirror in something fitted and compare the width of your shoulders with the width of your hips. There are three possibilities: shoulders wider, hips wider, roughly equal.

@@ -22,6 +22,11 @@ The twelve questions below are the ones to ask before paying anything. They appl
 
 ### 1. What exactly am I buying?
 
+<figure>
+<img class="narrow" src="/img/photos/sewing-tools.jpg" alt="Designer's worktable with a globe, gold scissors, a tape measure, thread and a lace swatch in soft light." loading="lazy">
+<figcaption>The answers to most of these questions live on the worktable: which lace, which lining, who sews the alterations. Ask before the fabric is cut. Photo: Lace &amp; Love, the studio that publishes this journal.</figcaption>
+</figure>
+
 There are three different things sold under the name "wedding dress", and they carry different rights and risks.
 
 **Off the rack.** You buy the sample you tried on, or a new copy in a standard size, and it is altered to fit. Delivery is fast. What you saw is what you get, minus whatever alterations can do.

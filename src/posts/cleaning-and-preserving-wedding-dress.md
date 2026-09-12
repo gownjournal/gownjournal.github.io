@@ -38,6 +38,11 @@ Whatever happens, tell the cleaner afterwards exactly what the stain is. Cleanin
 
 Most of the damage a dress suffers is invisible on the day. Sugar from drinks dries clear and turns yellow over months. Sweat and body oils along the bodice and underarms oxidise. A hem that brushed a lawn holds moisture. None of this shows in the photographs, and all of it is far easier to remove in the first week than in the sixth month.
 
+<figure>
+<img class="narrow" src="/img/photos/dress-hanging-detail.jpg" alt="Long-sleeved lace wedding dress with a plunging neckline hanging on a wooden hanger against a white plank wall." loading="lazy">
+<figcaption>Hung on a padded hanger in a cool room, not in a plastic bag. This is where the dress should spend the days between the wedding and the cleaner. Photo: Lace &amp; Love, the studio that publishes this journal.</figcaption>
+</figure>
+
 So, within the first few days:
 
 1. Hang the dress in a cool, dry room, out of sunlight, not in a plastic bag.

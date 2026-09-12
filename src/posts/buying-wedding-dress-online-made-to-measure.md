@@ -48,6 +48,11 @@ A sound process has a named designer, a measurement guide you can follow, a conv
 
 This is where online orders succeed or fail. The designer is working from numbers you supply, and a two-centimetre error in the underbust measurement is the difference between a bodice that sits and one that gapes.
 
+<figure>
+<img class="narrow" src="/img/photos/measuring.jpg" alt="Measurement guide diagram over a photo of a bride in a lace dress: labelled lines for bust, waist, hips, sleeve length, hollow to hem and skirt length." loading="lazy">
+<figcaption>A studio's measurement guide. Each line is a number the maker cannot take for you, which is why a second person and a second attempt matter. Photo: Lace &amp; Love, the studio that publishes this journal.</figcaption>
+</figure>
+
 What helps:
 
 1. **Have someone else measure you.** Measuring your own back and shoulders is guesswork.

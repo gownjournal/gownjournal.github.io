@@ -49,6 +49,11 @@ There are three options, and the right one depends on the neckline, the fabric a
 
 This is where honesty matters, because the products sold for this problem promise more than they deliver.
 
+<figure>
+<img class="narrow" src="/img/photos/open-back-view.jpg" alt="Back view of a bride in a lace wedding dress with an open back cut to the waist and a chiffon skirt." loading="lazy">
+<figcaption>An open back leaves no room for a bra band. Support has to be built into the front of the bodice or come from adhesive cups, and both have limits. Photo: Lace &amp; Love, the studio that publishes this journal.</figcaption>
+</figure>
+
 **Adhesive bras.** Silicone or fabric cups that stick to the skin. They give a little shape and no lift, they lose grip with heat and sweat (a summer wedding, a dance floor), and they can peel at the edge during a long day. They work for a small bust in a cool room for a few hours. For anything more, do not rely on them.
 
 **Corset-style boning.** The best answer for strapless and backless dresses. A bodice with boning through the seams, a fitted waist stay and a firm lining holds itself up and holds you in. Ask at the first fitting whether the bodice is boned and how many bones it has. A strapless dress with two or three bones will slide; one with eight or ten will not. Combined with sewn-in cups, this is what actually holds up most strapless and backless dresses: the cups give the shape and the bodice does the lifting.

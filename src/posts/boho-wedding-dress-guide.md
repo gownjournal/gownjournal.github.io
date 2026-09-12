@@ -84,6 +84,11 @@ The [lace types guide](/guides/lace-types-wedding-dresses/) goes into the differ
 
 A boho dress is more exposed to its surroundings than a structured one, because there is less between you and the weather.
 
+<figure>
+<img src="/img/photos/coastal-real-bride.jpg" alt="Bride in a long-sleeved chiffon and lace dress with her groom on a windy clifftop above a beach, the skirt blowing." loading="lazy">
+<figcaption>A real wedding on a coast: chiffon and the wind become part of the photographs. Plan the hem and the veil for it. Photo: Lace &amp; Love, the studio that publishes this journal.</figcaption>
+</figure>
+
 **Wind.** Chiffon and fine tulle move, which is the point on a hillside and a nuisance on a clifftop. If the ceremony is somewhere windy, a crepe or a lined lace holds its shape; a floating overlay may spend the vows wrapped round your legs.
 
 **Heat.** Cotton, chiffon and unlined lace breathe. Crepe and heavily lined lace do not, and a long-sleeved lace dress on a hot afternoon is an endurance test. Ask what the lining is made of; a polyester lining under a breathable fabric cancels the benefit.

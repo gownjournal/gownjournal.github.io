@@ -183,3 +183,7 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 500; line-height: 1.15; mar
 .figure-pair { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; align-items: start; }
 .figure-pair img { width: 100%; height: auto; }
 @media (max-width: 520px) { .figure-pair { grid-template-columns: 1fr; } }
+
+.prose figure, .author-photo { margin: 2rem 0 1rem; }
+.prose figure img, .author-photo img { max-width: 100%; border-radius: 8px; }
+.prose figcaption, .author-photo figcaption { font-size: 0.85rem; color: var(--ink-soft); margin-top: 0.4rem; }

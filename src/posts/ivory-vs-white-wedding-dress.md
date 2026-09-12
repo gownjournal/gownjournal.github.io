@@ -56,6 +56,11 @@ So "ivory" on a label tells you where you are in one maker's range and nothing e
 
 Undertone is the cool, warm or neutral cast beneath the surface colour of your skin, and it is more useful than how light or dark your skin is.
 
+<figure>
+<img class="narrow" src="/img/photos/beach-bride.jpg" alt="Smiling bride in an ivory lace and chiffon dress on a beach in full daylight, holding the skirt as it moves in the wind." loading="lazy">
+<figcaption>Daylight is the only honest test. The same ivory reads warmer here than it did under the shop's spotlights. Photo: Lace &amp; Love, the studio that publishes this journal.</figcaption>
+</figure>
+
 **A rough test in daylight.** Stand at a window in the morning without make-up. Look at the veins on the inside of your wrist: blue or purple suggests cool, green suggests warm, a mix suggests neutral. Then hold a piece of plain white paper against your face. If your skin looks yellow or sallow against it, a stark white will do the same and a warmer shade will suit you. If your skin looks pink or rosy and healthy, cool whites work.
 
 **Broadly:** warm undertones (golden, olive, peach) suit ivory, champagne and warmer natural whites; stark white can make them look yellow. Cool undertones (pink, blue, rosy) suit natural white, stark white and blush; a heavy champagne can look muddy. Neutral undertones suit most of the range and should choose on fabric and mood instead.
