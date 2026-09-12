@@ -10,6 +10,7 @@ export default function (eleventyConfig) {
   eleventyConfig.setLibrary("md", md);
 
   eleventyConfig.addPassthroughCopy({ "src/css": "css" });
+  eleventyConfig.addPassthroughCopy("src/*.txt"); // indexnow key
   eleventyConfig.addPassthroughCopy({ "src/img": "img" });
 
   eleventyConfig.addCollection("posts", (api) =>
