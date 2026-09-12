@@ -39,7 +39,7 @@ Every guide on the Journal is published under the name of **Shany Sasson**, brid
 
 The writing itself is done with the Journal's editors, and outside professionals are consulted where a subject falls beyond made-to-measure work (dry cleaning, for example). Where professionals disagree, the guide says so rather than picking a side.
 
-You can find her at [shanysasson.com](https://www.shanysasson.com/), on [Instagram](https://www.instagram.com/lace_and_love_brides/) and on [Pinterest](https://www.pinterest.com/LaceandLoveBrides).
+You can find her at [shanysasson.com](https://www.shanysasson.com/), on [Instagram](https://www.instagram.com/lace_and_love_brides/), on [Pinterest](https://www.pinterest.com/LaceandLoveBrides), and in the [Lace & Love shop on Etsy](https://www.etsy.com/shop/LaceAndLoveBrides), where the studio's customer reviews are held.
 
 ## How guides are written
 

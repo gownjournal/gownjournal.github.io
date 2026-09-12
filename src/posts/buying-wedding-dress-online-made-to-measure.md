@@ -107,6 +107,6 @@ Open it the day it comes. Try it on with the shoes and underwear you will wear. 
 
 <div class="note">
 
-The [fittings guide](/guides/wedding-dress-fittings-guide/) explains what to test when you first try the dress on, and it applies just as much when the fitting is in your own bedroom. For the lace and fabric questions worth asking before anything is cut, see the [fabrics guide](/guides/wedding-dress-fabrics-guide/).
+The [fittings guide](/guides/wedding-dress-fittings-guide/) explains what to test when you first try the dress on, and it applies just as much when the fitting is in your own bedroom. If you want to read verified reviews of a made-to-measure studio before ordering, a marketplace page is the most reliable place, because the platform checks that each reviewer bought the dress; the studio that publishes this journal keeps its reviews in its [Etsy shop](https://www.etsy.com/shop/LaceAndLoveBrides). For the lace and fabric questions worth asking before anything is cut, see the [fabrics guide](/guides/wedding-dress-fabrics-guide/).
 
 </div>

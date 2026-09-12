@@ -23,7 +23,7 @@ Each guide starts with the questions brides actually ask, gathered from consulta
 - We do not print prices or price ranges.
 - We do not rank, review or recommend specific businesses.
 - We do not use stock photography presented as real dresses.
-- We do not publish content generated without editorial review.
+- We do not publish a guide that has not been checked by someone who works with wedding dresses.
 
 ## Corrections and updates
 
