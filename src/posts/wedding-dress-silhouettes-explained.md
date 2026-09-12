@@ -14,13 +14,18 @@ faq:
     a: "Three or four. More than that becomes confusing and tiring. Bring two you expect to like and one you are sure you will not, because the surprise usually comes from the third."
 ---
 
-Open Pinterest for the first time and you meet the same words on every pin: A-line, mermaid, trumpet, ball gown, sheath. They sound like a salon's private code. In practice they describe five or six basic shapes, and each shape does something specific and predictable to a body. Once you know what that is, two things get easier: explaining what you want at an appointment, and understanding why a dress that looked perfect in a photograph did nothing for you in the mirror.
+Open Pinterest for the first time and you meet the same words on every pin: A-line, mermaid, trumpet, ball gown, sheath. They sound like a salon's private code. In practice they describe five or six basic shapes, and each shape does something specific and predictable to a body. A silhouette is the outline of the dress, set by where it is fitted and where the skirt starts to flare. Once you know what that is, two things get easier: explaining what you want at an appointment, and understanding why a dress that looked perfect in a photograph did nothing for you in the mirror.
 
 This guide takes each silhouette in turn: what it is, what it does, where it is comfortable and where it is not, and who tends to choose it. At the end there is a short table for taking to your first appointment.
 
-## What a silhouette actually is
+## What is a wedding dress silhouette?
 
 A silhouette is the outline of the dress, and the outline is decided by two things: where the dress is fitted to the body, and where it stops being fitted and starts to flare. Everything else, the neckline, the sleeves, the lace, the train, is decoration on top of that outline. It is why a plain crepe A-line and an A-line covered in Chantilly lace are, structurally, the same dress.
+
+<figure>
+<img src="/img/silhouettes.svg" alt="Line drawings of six wedding dress silhouettes side by side: A-line, ball gown, mermaid, trumpet, sheath and empire, with a dashed line on each marking where the skirt starts to flare." width="1020" height="340" loading="lazy">
+<figcaption>The six silhouettes. The dashed line marks where each one stops being fitted and starts to flare, which is the measurement that matters most.</figcaption>
+</figure>
 
 It also means silhouette should be the first decision, not the last. Neckline and fabric can be changed on most dresses. The point where the skirt flares usually cannot.
 
@@ -88,7 +93,7 @@ The waistline is raised to just under the bust, and the fabric falls loosely fro
 
 **Who chooses it.** Pregnant brides, brides with a short torso who want to lengthen the leg line, and anyone whose wedding is outdoors in warm weather.
 
-## Where the flare starts: the detail that matters most
+## Where does the skirt flare start, and why does it matter?
 
 If you take one thing from this guide, make it this. The single most important measurement in a fitted dress is the point where the skirt stops being fitted and begins to open. On a mermaid it is at or below the knee. On a trumpet it is mid-thigh. On an A-line it is the waist. On a ball gown it is the waist, with structure added.
 
@@ -106,7 +111,7 @@ Two dresses can share a name and feel entirely different because of a few centim
 | A dramatic entrance | Ball gown, mermaid |
 | An outdoor or beach wedding | A-line, empire, sheath |
 
-## How to use this at an appointment
+## How do you use this at a first appointment?
 
 Choose three silhouettes: two you expect to like and one you are sure you will not. Try all three. Walk to the far end of the room and back. Sit down. Raise your arms as if hugging someone. Bend forward as if picking something up.
 

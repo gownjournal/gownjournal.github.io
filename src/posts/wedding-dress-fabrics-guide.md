@@ -14,11 +14,11 @@ faq:
     a: "Because fabric decides how the silhouette behaves. Satin falls heavily in clean lines and shows the body; tulle floats away from it. The pattern may be identical, but the weight, drape and light of the fabric make it a different dress."
 ---
 
-Before the lace, before the neckline, before any of the decisions that fill a mood board, there is a plainer one: what the dress is made of. Fabric decides how the dress moves, how much it weighs, how warm it is, whether it survives an hour of sitting without creasing, and how it looks in photographs. Two dresses cut from the same pattern in tulle and in satin are not variations on a theme. They are different dresses.
+Before the lace, before the neckline, before any of the decisions that fill a mood board, there is a plainer one: what the dress is made of. The fabric is the cloth the dress is cut from, and it decides how the dress moves, how much it weighs, how warm it is, whether it survives an hour of sitting without creasing, and how it looks in photographs. Two dresses cut from the same pattern in tulle and in satin are not variations on a theme. They are different dresses.
 
 This guide covers the fabrics you will actually meet, what each one does, and the questions that tell you what you are buying.
 
-## Why fabric should come before decoration
+## Why should fabric come before decoration?
 
 A silhouette is a shape, and fabric is what gives the shape its behaviour. Stiff fabrics hold a line; fluid fabrics follow the body. A ball gown needs a fabric that can stand away from the legs. A sheath needs one that falls straight and does not cling. An empire line needs one that flows. Choose the silhouette first, then choose a fabric that can do what the silhouette needs. Choosing them in the wrong order is how a bride ends up with a chiffon corset dress that will not hold its shape, or a mikado empire line that looks like a lampshade.
 
@@ -90,7 +90,7 @@ Not a fabric so much as a family. Chantilly is fine and sheer with a scalloped e
 
 Lace barely creases, hides well, and is comfortable. It is also the fabric where the gap between the shop sample and the delivered dress is widest, because the same pattern can be made up in laces of very different quality. Our [guide to lace types](/guides/lace-types-wedding-dresses/) goes into each one.
 
-## A comparison
+## How do wedding dress fabrics compare?
 
 | Fabric | Weight | Breathes | Creases | Holds shape | Best for |
 |---|---|---|---|---|---|
@@ -102,7 +102,7 @@ Lace barely creases, hides well, and is comfortable. It is also the fabric where
 | Organza | Light | Yes | Sharply | Holds air | Volume without weight |
 | Lace | Varies | Yes | Barely | Depends on base | Almost anything, over a lining |
 
-## Questions to ask about fabric
+## What should you ask about the fabric?
 
 1. **Is the dress I am trying on made of exactly the fabric I will receive?** In many salons the sample is one fabric and the delivered dress another. Ask to see a swatch of the fabric that will be used, and ask to keep a piece.
 2. **What will the finished dress weigh?** Lace over tulle over a petticoat adds up. Ask for a number or ask to lift a finished dress of the same construction.

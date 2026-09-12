@@ -14,13 +14,18 @@ faq:
     a: "Yes, at the fitting where the hem is set. A hem set for heels trails on the floor the moment you change into flats, and a hem set for flats sits high with heels on. The seamstress can set a compromise length only if she knows both pairs exist."
 ---
 
-A wedding dress is finished by three or four decisions that are usually made at the end, quickly, in a shop, after the hard work is done. Veil, earrings, shoes, perhaps a belt or something for the shoulders. Each one is small. Together they decide whether the dress reads as considered or as covered in things.
+A wedding dress is finished by three or four decisions that are usually made at the end, quickly, in a shop, after the hard work is done. Veil, earrings, shoes, perhaps a belt or something for the shoulders. Each one is small. Together they decide whether the dress reads as considered or as covered in things. A veil is a length of tulle worn from a comb in the hair, and its name describes where the hem falls.
 
 The rule that runs through this guide is subtraction. Choose one thing to notice. If the dress is the thing, the accessories should be quiet. If the veil is the thing, the jewellery should be quiet. Two things competing for the eye is where most accessory mistakes come from.
 
 ## Veil lengths
 
-Veil names describe where the hem falls on a bride of average height. On a taller or shorter bride the same veil lands differently, so try them on with the dress rather than ordering from the name.
+The six standard veil lengths, from shortest to longest, are birdcage, shoulder, elbow, fingertip, chapel and cathedral. Veil names describe where the hem falls on a bride of average height. On a taller or shorter bride the same veil lands differently, so try them on with the dress rather than ordering from the name.
+
+<figure>
+<img class="narrow" src="/img/veil-lengths.svg" alt="Diagram of a bride in a long dress with dashed lines marking six veil lengths: birdcage at the cheekbones, shoulder, elbow, fingertip, chapel at the hem and cathedral beyond the train." width="520" height="770" loading="lazy">
+<figcaption>Where each veil length falls on a bride of average height. Lengths in centimetres are approximate; try them with the dress.</figcaption>
+</figure>
 
 | Length | Where it falls | What it does |
 |---|---|---|
@@ -35,13 +40,13 @@ Veil names describe where the hem falls on a bride of average height. On a talle
 
 **The back of the dress.** A veil covers the back for the whole ceremony. If the dress has an open back, a row of buttons or a lace panel you chose it for, consider a veil sheer enough to show it, or a length that ends above it, or no veil at all.
 
-## When to skip the veil, or wear it only for the ceremony
+## When should you skip the veil, or wear it only for the ceremony?
 
 A veil is not compulsory. It suits some dresses and some brides and not others, and a bride who feels covered rather than finished should leave it off without apology.
 
 The middle path is common: wear the veil for the ceremony and the formal photographs, then remove it before the meal. A cathedral or chapel veil in particular is a hazard at a reception, catching on chairs and being stood on during the first dance. If you take this route, ask the hairdresser how the comb is anchored so it can come out without dismantling the hair. A plain comb, a thin band or a single flower does the job for a bride who wants something in the hair and not a veil.
 
-## Matching the veil to the dress
+## How do you match the veil to the dress?
 
 **Plain veil with a lace dress.** If the dress has lace, embroidery or beading, the veil should be plain. Two patterns next to each other fight, and the dress loses.
 
@@ -51,7 +56,7 @@ The middle path is common: wear the veil for the ceremony and the formal photogr
 
 **Match the shade exactly.** Ivory is not one colour. There are warm ivories, pale ivories, ivories that lean pink and ivories that lean yellow. A veil in the wrong ivory looks grey or dirty next to the dress. Hold the veil against the dress in daylight before buying, and take a swatch of the dress fabric with you. The [ivory versus white guide](/guides/ivory-vs-white-wedding-dress/) goes into why this is so hard to judge under shop lighting.
 
-## Jewellery by neckline
+## Which jewellery suits which neckline?
 
 The neckline decides the jewellery. As a rule, an open neckline can take a necklace or a noticeable earring but not both, and a covered neckline should have no necklace at all.
 
@@ -66,7 +71,7 @@ The neckline decides the jewellery. As a rule, an open neckline can take a neckl
 
 **Metal tone and dress colour.** Silver, platinum and white gold sit well with pure white and cool ivories. Yellow gold and rose gold sit well with warm ivory, champagne and blush. Put the metal against the fabric in daylight. If the dress has beading or a belt with metal in it, match the jewellery to that metal rather than introducing a second one. Pearls go with nearly everything, which is why they are the default; choose the size by the weight of the fabric.
 
-## Shoes
+## How do you choose wedding shoes you can stand in all day?
 
 The shoe question is not about looks. It is about six hours.
 

@@ -14,17 +14,17 @@ faq:
     a: "Before the second fitting, and then change nothing. The seamstress fits the bodice and sets the hem over whatever you are wearing, so a different bra or a petticoat added later changes the fit. Bring every piece to every fitting from the second one onward."
 ---
 
-The dress gets the attention. What goes under it gets decided in a hurry, often the week before, and then the bodice sits differently because the bra is a different shape. Underwear is not a detail. It is part of the structure of the dress, and it changes the fit as surely as a seam does.
+The dress gets the attention. What goes under it gets decided in a hurry, often the week before, and then the bodice sits differently because the bra is a different shape. Underwear is not a detail. It is part of the structure of the dress, and it changes the fit as surely as a seam does. What goes under a wedding dress is the support, shapewear and petticoat that give the bodice its shape and the skirt its volume.
 
 This guide covers the options honestly, including the ones that do not work as well as their packaging says.
 
-## Why this has to be decided before the second fitting
+## Why does underwear have to be decided before the second fitting?
 
 A seamstress fits the dress to the body in front of her. If that body is wearing a padded bra at the second fitting and sewn-in cups at the wedding, the bodice will be too big at the bust and the neckline will sit differently. If shapewear appears for the first time on the day, the waist may be smaller than the one the dress was fitted to, and the bodice will ride up.
 
 So the sequence is: decide the underwear, buy it, wear it to the second fitting and every fitting after, and change nothing. The [fittings guide](/guides/wedding-dress-fittings-guide/) explains what else is locked in at that stage.
 
-## Support: built-in cups, a bra, or nothing
+## Do you need a bra under a wedding dress, or are cups enough?
 
 There are three options, and the right one depends on the neckline, the fabric and your bust.
 
@@ -45,7 +45,7 @@ There are three options, and the right one depends on the neckline, the fabric a
 
 **Fabric changes the answer.** A stiff mikado or duchess satin bodice with boning can hold its shape with cups alone. A bias-cut silk, a soft crepe or a fine tulle shows every edge, so the answer is usually smooth cups sewn into a lining. Our [fabrics guide](/guides/wedding-dress-fabrics-guide/) explains which fabrics forgive and which do not.
 
-## Strapless and backless: what works and what does not
+## What holds up a strapless or backless wedding dress?
 
 This is where honesty matters, because the products sold for this problem promise more than they deliver.
 
@@ -67,9 +67,9 @@ Shapewear smooths. It does not reshape, and it does not replace a well-fitted dr
 
 **Colour.** Match shapewear to your skin, not to the dress. A white or ivory piece under an ivory dress shows as a brighter panel; a piece close to your skin tone disappears.
 
-## Petticoats, hoops and crinolines
+## What goes under the skirt: petticoat, hoop or crinoline?
 
-The volume under a skirt is a separate purchase, and it is usually not included (the [questions guide](/guides/questions-before-buying-wedding-dress/) has a list of what tends to be extra). What you need depends on the silhouette.
+A sheath or empire dress needs nothing under the skirt, an A-line needs a light tulle petticoat, and a ball gown needs a multi-layer petticoat or a hoop. The volume under a skirt is a separate purchase, and it is usually not included (the [questions guide](/guides/questions-before-buying-wedding-dress/) has a list of what tends to be extra). What you need depends on the silhouette.
 
 | Silhouette | Under the skirt |
 |---|---|

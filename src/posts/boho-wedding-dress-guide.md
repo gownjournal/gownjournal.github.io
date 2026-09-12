@@ -14,11 +14,11 @@ faq:
     a: "Subtract. Choose the cut, the fabric and one detail, then stop. With accessories, pick a crown or a long veil, not both. If a dress needs a flower crown and bare feet to read as boho, the dress itself is something else."
 ---
 
-Boho is the most requested word in bridal and the least agreed upon. To one bride it means bare feet, a flower crown and a crochet dress on a beach. To another it means a bias-cut silk slip with one long sleeve of Chantilly, worn in a city registry office. Both are right, and the salon that hears "boho" cannot know which one you mean.
+Boho is the most requested word in bridal and the least agreed upon. To one bride it means bare feet, a flower crown and a crochet dress on a beach. To another it means a bias-cut silk slip with one long sleeve of Chantilly, worn in a city registry office. Strictly, a boho wedding dress is a soft, unstructured dress in a textured fabric with one storytelling detail, such as a long sleeve or an open back. Both are right, and the salon that hears "boho" cannot know which one you mean.
 
 This guide sets out what the word actually describes, what only looks like it, the three directions it goes in, the fabrics that make it work, and how to keep the result on the side of a dress rather than a costume.
 
-## What defines a boho dress
+## What defines a boho wedding dress?
 
 Strip the styling away and a boho dress has three traits. A dress that has all three is boho whatever the fabric. A dress with only one of them usually is not.
 
@@ -28,7 +28,7 @@ Strip the styling away and a boho dress has three traits. A dress that has all t
 
 **One storytelling detail.** A long sleeve, an open back, a fringe, a deep V, a row of covered buttons, an embroidered hem. One. The detail is what people remember and what makes the dress yours. When there are three or four, the dress starts to describe a character instead of a bride, which is where costume begins.
 
-## What is not boho
+## What is not boho?
 
 **A lace dress is not automatically boho.** A corded Alençon mermaid over a structured corset is formal, however much lace it carries. The cut decides, not the fabric.
 
@@ -42,7 +42,7 @@ If a dress needs the styling to read as boho, the dress is something else.
 
 ## The three sub-styles
 
-The word covers three directions that share the traits above and differ in mood. Knowing which one you mean shortens the appointment considerably.
+The three boho sub-styles are romantic, clean (or urban) and free-spirited. The word covers three directions that share the traits above and differ in mood. Knowing which one you mean shortens the appointment considerably.
 
 ### Romantic boho
 
@@ -56,7 +56,7 @@ The version for brides who like the softness but not the sentiment. A bias-cut c
 
 The version closest to the word's origin. Guipure or crochet lace, cotton eyelet, fringe, tiered skirts, embroidery in colour, a bare shoulder, perhaps a short hem or a slit. Fabrics are often cotton-based and the dress may be unlined in places. It suits beaches, festivals, small outdoor ceremonies and brides who intend to dance barefoot. Its risk is the highest of the three: with fringe, tiers, embroidery and a crown all at once, the dress becomes a look rather than a gown. Pick two elements and let the rest be plain.
 
-## Fabrics for boho
+## Which fabrics work for a boho dress?
 
 The three traits above depend almost entirely on fabric, and five do most of the work.
 
@@ -97,7 +97,7 @@ Bring two or three photographs that represent the sub-style you mean, and be rea
 
 That last question is the useful one. If the answer is a list, the dress is already close to costume. If the answer is "nothing, it is already plain", you have found the right one.
 
-## Keeping it a dress and not a costume
+## How do you keep a boho dress from looking like a costume?
 
 The rule is subtraction. Choose the cut, choose the fabric, choose one detail, and stop. Accessories follow the same rule: a crown or a long veil, not both; earrings or a statement necklace, not both. The [veils and accessories guide](/guides/wedding-veil-lengths-and-accessories/) covers which veil lengths sit well on soft dresses. A boho dress done well looks like something you might have chosen to wear anyway, on a good day, in a beautiful place. That is the whole idea.
 

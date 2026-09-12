@@ -14,11 +14,11 @@ faq:
     a: "No, but it argues for a lighter one. Heavy layers, a dropped waist and wide horizontal details all take height away. A ball gown with a fitted bodice, fewer layers of tulle and a waistline at or slightly above natural can work well on a petite frame."
 ---
 
-Most body shape guides start with fruit. You are an apple, a pear, an hourglass, or, if the writer is feeling generous, a rectangle. Then a list follows: apples wear this, pears wear that. The labels feel scientific and they are nearly useless, because almost nobody is one shape, and because they hide the actual questions a good fitter is asking when she looks at you.
+Most body shape guides start with fruit. You are an apple, a pear, an hourglass, or, if the writer is feeling generous, a rectangle. Then a list follows: apples wear this, pears wear that. A body shape guide, done properly, matches dress silhouettes to the proportions of the body: shoulders, hips, waist and height. The labels feel scientific and they are nearly useless, because almost nobody is one shape, and because they hide the actual questions a good fitter is asking when she looks at you.
 
 This guide drops the labels. Instead it looks at three relationships in the body, then at height, then at what changes during pregnancy. At the end there is a table, and a reminder that the table is where you begin and not where you finish.
 
-## Why the fruit labels fail
+## Why do the fruit body-shape labels fail?
 
 Three reasons.
 
@@ -30,7 +30,9 @@ Three reasons.
 
 So the more useful approach is to look at the body the way a pattern cutter does: as a set of relationships rather than as a category.
 
-## The three relationships that matter
+## Which three body relationships matter for a wedding dress?
+
+The three relationships that decide which dress suits you are shoulders against hips, how defined the waist is, and where the natural waist sits.
 
 ### Shoulders against hips
 
@@ -75,7 +77,7 @@ The table below is not a rulebook. It is a way of narrowing three or four silhou
 
 Read across your own three lines. Where they agree, you have your starting point. Where they conflict (wide hips and a low waist, say), the fitter will need to balance one against the other, and that conversation is far more productive when you both know which relationships are in play. Our [guide to silhouettes](/guides/wedding-dress-silhouettes-explained/) explains what each of those shapes does once you are in it.
 
-## Height
+## How does height change the choice?
 
 Height changes proportion, not shape, and it changes it in predictable ways.
 
@@ -95,7 +97,7 @@ If you will be pregnant on the day, the question changes from "what suits me" to
 
 **Plan for comfort.** Feet swell, so try shoes on in the afternoon, and make sure the dress lets you sit and eat without pressure across the middle.
 
-## A fitting beats any chart
+## Why does a fitting beat any chart?
 
 Everything above is a way of arriving at a first appointment with three or four silhouettes to ask for, and a reason for each. It is not a verdict.
 

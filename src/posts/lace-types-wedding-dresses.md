@@ -14,11 +14,11 @@ faq:
     a: "Remove rings and bracelets while dressing and ask anyone helping with buttons to do the same. Sit on a smoothed skirt rather than a bunched one and keep the dress away from rough chairs and zips. If a thread pulls, ease it back with a pin instead of cutting it, and leave any repair to a specialist."
 ---
 
-Lace is the word brides use most and understand least, and that is not their fault. "Lace" covers a family of fabrics that have almost nothing in common beyond being patterned and partly see-through. One is as fine as a cobweb; another is thick, opaque and holds its own shape. A dress described as lace could be either.
+Lace is the word brides use most and understand least, and that is not their fault. Lace is a fabric made of thread worked into a pattern with open spaces between the motifs. "Lace" covers a family of fabrics that have almost nothing in common beyond being patterned and partly see-through. One is as fine as a cobweb; another is thick, opaque and holds its own shape. A dress described as lace could be either.
 
 This guide takes the five kinds you will meet most often, then turns to the practical questions: why two lace dresses never look alike, appliqué against all-over lace, what to ask about samples, and care.
 
-## What lace is, briefly
+## What is lace, briefly?
 
 Lace is thread worked into a pattern with open spaces between. Nearly all bridal lace today is machine-made, and the names below describe the style rather than the method. What separates one from another is the ground it sits on, the thickness of the thread, whether the motifs are outlined with a cord, and how much open space is left between them.
 
@@ -88,13 +88,13 @@ Chantilly and Alençon are named after French towns, and lace from the surviving
 
 Lace made elsewhere is not automatically inferior, and much of it is sold under the same style names, which is where confusion starts. The honest distinction is between Leavers lace and the more common Raschel lace, which is knitted rather than woven, has a coarser net, and looks flatter and slightly shinier. If a salon describes a lace as French, ask whether it means the origin or the style.
 
-## Why two lace dresses look nothing alike
+## Why do two lace dresses look nothing alike?
 
 Because "lace dress" fixes almost nothing. Consider what varies: the type of lace, the colour of the lining beneath it, whether the lace is applied over a fitted lining or floats over a soft one, whether the motifs are placed by hand or cut from a roll, the scale of the pattern against the size of the bride, and how much of the dress is covered. A Chantilly overlay on a bias-cut silk slip and a guipure bodice over a structured corset are both lace dresses. They share nothing.
 
 When you save a photograph, work out what you actually like (the fineness of the pattern, the movement, the skin showing through, the graphic outline) and describe that at the appointment.
 
-## Appliqué against all-over lace
+## What is the difference between appliqué and all-over lace?
 
 **All-over lace** is a length of lace fabric cut like any other fabric and sewn into the dress. The pattern runs continuously and the seams cut through it. It is quicker to make.
 
@@ -102,7 +102,7 @@ When you save a photograph, work out what you actually like (the fineness of the
 
 Neither is better. Ask which one a dress is, and if it is appliqué, whether the motifs will be placed on your body at the fitting or on a standard form.
 
-## What to ask before ordering
+## What should you ask before ordering a lace dress?
 
 **Is the sample lace the same as the lace on the delivered dress?** Salon samples can be several seasons old and mills discontinue patterns. Ask whether your dress will use the same lace from the same mill, and get the answer in writing.
 

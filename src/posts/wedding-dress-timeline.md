@@ -14,9 +14,9 @@ faq:
     a: "Order for the body you have and tell the maker about any change you are planning. Fittings exist to adjust, and taking in is far easier than letting out. Do not buy a size smaller as motivation."
 ---
 
-"When should I start?" gets a different answer in every salon, and the salons are not being evasive. The answer depends on which route you are taking. A dress made from scratch on your body needs a different timeline from a dress ordered from a maker's collection, which needs a different timeline again from a dress bought off the rack and altered. This guide sets out all three, stage by stage, and then deals with the situation nobody plans for: the wedding is in eight weeks.
+"When should I start?" gets a different answer in every salon, and the salons are not being evasive. The answer depends on which route you are taking. A wedding dress timeline is the schedule from first appointment to collection, and it runs from six to nine months for made to measure down to one or two for off the rack. A dress made from scratch on your body needs a different timeline from a dress ordered from a maker's collection, which needs a different timeline again from a dress bought off the rack and altered. This guide sets out all three, stage by stage, and then deals with the situation nobody plans for: the wedding is in eight weeks.
 
-## The three routes
+## What are the three routes to a wedding dress?
 
 **Made to measure with a designer.** The dress is built for you, from a sketch and a set of measurements through to the last hem stitch. The most control, and the longest timeline. Six to nine months, occasionally more.
 
@@ -26,7 +26,9 @@ faq:
 
 There is a fourth route, buying made to measure online from a designer in another country, which has its own timeline and its own risks. It is covered in the [guide to buying online](/guides/buying-wedding-dress-online-made-to-measure/).
 
-## Timeline for a made-to-measure dress
+## How long does a made-to-measure dress take?
+
+A made-to-measure dress takes six to nine months from first research to collection, and the toile at three to four months out is the key appointment.
 
 ### Nine to twelve months out: research
 
@@ -68,7 +70,7 @@ A typical sequence:
 | Alterations, two or three fittings | 6 weeks to 1 week out |
 | Collection | 1 week out |
 
-## If you have less than two months
+## What if you have less than two months?
 
 This happens more often than salons admit, and it is manageable.
 
@@ -78,7 +80,7 @@ This happens more often than salons admit, and it is manageable.
 4. **Skip anything that adds weeks.** Custom embroidery, hand-beading, imported lace, a change of neckline.
 5. **Buy the shoes this week.** Everything else waits on them.
 
-## What causes delays
+## What causes delays?
 
 - Fabric or lace ordered from abroad that arrives late.
 - A significant change in weight between fittings.

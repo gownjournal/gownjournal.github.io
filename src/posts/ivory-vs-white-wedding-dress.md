@@ -14,11 +14,13 @@ faq:
     a: "Light. Candlelight and warm indoor bulbs add yellow, so white reads as ivory and ivory as cream. Flash and cool LED do the reverse. Photographers also balance colour to a neutral, often using the dress as the reference, so tell them the dress colour in advance and show them a swatch."
 ---
 
-Ask a salon for an ivory dress and you may be shown three dresses in three visibly different colours, all called ivory. Ask for white and one of them will be the same as the ivory next door. Colour in bridal has names but no standard, and the names are the least reliable part of the whole process.
+Ask a salon for an ivory dress and you may be shown three dresses in three visibly different colours, all called ivory. Ask for white and one of them will be the same as the ivory next door. Ivory is a warm white with a hint of cream, while bridal white runs from a blue-toned stark white to a faintly warm natural white. Colour in bridal has names but no standard, and the names are the least reliable part of the whole process.
 
 This guide sets out what the names usually mean, why they drift between makers, how skin, fabric and light change a colour, and how to compare swatches so the decision is made with your eyes rather than a label.
 
 ## The shades, from coolest to warmest
+
+From coolest to warmest, the bridal shades are stark white, natural (or diamond) white, ivory, champagne and blush.
 
 **Stark white** (also optic or pure white). A blue-toned white with no yellow in it, the colour of printer paper. Only synthetic fibres reach it; silk cannot be bleached that far without damage. It is the least common choice and the most unforgiving: it reflects a great deal of light and photographs as a flat block.
 
@@ -38,7 +40,7 @@ This guide sets out what the names usually mean, why they drift between makers, 
 | Champagne | Warm, gold or beige | Satin, mikado, lace linings | Pale gold |
 | Blush | Pink, sometimes peach | Tulle, linings under lace | Pale pink |
 
-## Why the same name differs between makers
+## Why does ivory look different from one maker to another?
 
 Three reasons, and none of them is dishonesty.
 
@@ -50,7 +52,7 @@ Three reasons, and none of them is dishonesty.
 
 So "ivory" on a label tells you where you are in one maker's range and nothing else. The swatch tells you the colour.
 
-## Skin undertone and how to test it
+## How do you test which shade suits your skin tone?
 
 Undertone is the cool, warm or neutral cast beneath the surface colour of your skin, and it is more useful than how light or dark your skin is.
 
@@ -60,9 +62,9 @@ Undertone is the cool, warm or neutral cast beneath the surface colour of your s
 
 The paper test is rough. The proper test is a swatch against your skin, covered at the end.
 
-## How fabric changes the colour
+## How does fabric change the colour of a dress?
 
-Colour is a surface, and the surface decides how much light comes back.
+The same ivory looks lighter in satin, softer in crepe, fainter in tulle and, in lace, takes its colour from the lining. Colour is a surface, and the surface decides how much light comes back.
 
 **Satin and mikado** are smooth and reflect light. They make any colour look lighter and cooler on the highlights and darker in the folds. An ivory satin can read as white in the sun and as cream in shadow, in the same afternoon.
 
@@ -92,7 +94,7 @@ A veil need not match the dress exactly, but it must be chosen against it, becau
 
 An ivory veil against an ivory satin dress can look either identical or two shades apart, depending on the tulle. A veil a touch lighter than the dress usually looks right, because tulle is sheer and the colour reads weaker; a veil a touch darker almost always looks wrong. Order the veil from the same maker as the dress where you can, or bring the swatch when you buy it. The [veil lengths and accessories guide](/guides/wedding-veil-lengths-and-accessories/) covers the rest of that decision.
 
-## How to compare swatches properly
+## How do you compare colour swatches properly?
 
 - Ask for a swatch of each colour you are considering, in the fabric of the dress, with the lining attached if there is one.
 - Compare them at a north-facing window in the middle of the day, out of direct sun.

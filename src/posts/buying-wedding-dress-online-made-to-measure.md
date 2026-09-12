@@ -14,15 +14,17 @@ faq:
     a: "Typically three to five months from order to delivery, plus two to four weeks for local alterations. Add customs clearance if it is crossing a border. Six months before the wedding is a comfortable order date; four is possible; less than three needs a designer who offers a rush service."
 ---
 
-A decade ago, buying a wedding dress without trying it on would have sounded reckless. Today a substantial share of brides do exactly that, and many of them order made to measure from a designer in another country. It works far more often than the horror stories suggest, and it goes wrong in predictable ways that can be spotted in advance. This guide explains how a good process works, where the risks are, and the questions that separate a designer from a listing.
+A decade ago, buying a wedding dress without trying it on would have sounded reckless. Today a substantial share of brides do exactly that, and many of them order made to measure from a designer in another country. Buying made to measure online means a designer cuts a dress to measurements you send, with no in-person fitting, and ships it to you. It works far more often than the horror stories suggest, and it goes wrong in predictable ways that can be spotted in advance. This guide explains how a good process works, where the risks are, and the questions that separate a designer from a listing.
 
-## Why brides order online
+## Why do brides order wedding dresses online?
 
 Three reasons come up again and again. The style they want is not available locally, or only in one salon at a price they cannot justify. They dislike the salon experience: the appointment, the audience, the pressure. Or they have a body that standard sizes do not fit, and a made-to-measure dress from a small designer is the first thing that has ever fitted properly.
 
 None of these is a bad reason. The question is whether the process on the other end is sound.
 
-## What a good process looks like
+## What does a good online made-to-measure process look like?
+
+A sound process has a named designer, a measurement guide you can follow, a conversation before the order, a written policy on fit, progress photographs and a realistic timeline.
 
 **A named designer and a real studio.** You should be able to see who makes the dress, where, and what else they have made. Photographs of the same dress on different real customers, not only on one model, are the single most reassuring thing a site can show.
 
@@ -36,7 +38,7 @@ None of these is a bad reason. The question is whether the process on the other 
 
 **Realistic timelines.** Three to five months is normal. A promise of two weeks for a made-to-measure lace dress is either a stock dress being relabelled or a warning sign.
 
-## The measurement problem, honestly
+## How do you measure yourself for a dress made remotely?
 
 This is where online orders succeed or fail. The designer is working from numbers you supply, and a two-centimetre error in the underbust measurement is the difference between a bodice that sits and one that gapes.
 
@@ -88,7 +90,7 @@ The [twelve questions for any dress purchase](/guides/questions-before-buying-we
 
 Book the local seamstress before the dress arrives. Good ones are busy in wedding season, and a dress sitting in a box for three weeks while you find someone is the most common avoidable delay.
 
-## Once it arrives
+## What should you do when the dress arrives?
 
 Open it the day it comes. Try it on with the shoes and underwear you will wear. Check the bodice, the hem, the closure and the fabric against the swatch you kept. Photograph anything that concerns you and send it to the designer the same day, while the window for remote adjustment is open. Then take it to the seamstress.
 

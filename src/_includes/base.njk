@@ -27,6 +27,7 @@
 <meta name="twitter:description" content="{{ pageDesc }}">
 <meta name="twitter:image" content="{{ ogImage }}">
 <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ '/feed.xml' | absUrl(site.url) }}">
+<link rel="license" type="application/rsl+xml" href="{{ '/license.xml' | absUrl(site.url) }}">
 <link rel="icon" href="/img/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -48,7 +49,15 @@
       "logo": { "@type": "ImageObject", "url": "{{ '/img/logo.svg' | absUrl(site.url) }}" },
       "foundingDate": "{{ site.founded }}",
       "description": {{ site.description | dump | safe }},
-      "parentOrganization": { "@type": "Organization", "name": {{ site.publisher.name | dump | safe }}, "url": "{{ site.publisher.url }}" }
+      "sameAs": ["{{ site.sisterSite.url }}"],
+      "parentOrganization": {
+        "@type": "Organization",
+        "name": {{ site.publisher.name | dump | safe }},
+        "url": "{{ site.publisher.url }}",
+        "sameAs": ["{{ site.publisher.designerUrl }}", "https://www.mit4mit.co.il/biz/90372"],
+        "founder": { "@type": "Person", "name": "{{ site.publisher.designer }}", "url": "{{ site.publisher.designerUrl }}", "jobTitle": "Bridal designer" },
+        "address": { "@type": "PostalAddress", "addressLocality": "Hod Hasharon", "addressCountry": "IL" }
+      }
     },
     {
       "@type": "WebSite",

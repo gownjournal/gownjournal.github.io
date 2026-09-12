@@ -12,9 +12,11 @@ faq:
     a: "In an acid-free box with acid-free tissue, in a cool, dark, dry place, yes. Vacuum sealing is not recommended for most fabrics, because it creases permanently and traps any residual moisture. Plastic garment bags are the worst option; they trap humidity and can yellow the fabric."
 ---
 
-The dress has one job, and it does it in a day. What happens in the weeks afterwards decides whether it is still white in twenty years or a faintly yellow object in a box. This guide covers the day itself (steaming, emergencies), the first week (why it matters more than any other), how professional cleaning differs from a standard dry clean, and how to store the dress properly if you intend to keep it.
+The dress has one job, and it does it in a day. What happens in the weeks afterwards decides whether it is still white in twenty years or a faintly yellow object in a box. Preserving a wedding dress means cleaning it within weeks of the wedding and storing it away from light, damp and acid so it stays white. This guide covers the day itself (steaming, emergencies), the first week (why it matters more than any other), how professional cleaning differs from a standard dry clean, and how to store the dress properly if you intend to keep it.
 
 ## On the day: steaming and small emergencies
+
+On the day itself, a handheld steamer and a small kit of white cloth, plain water, chalk and safety pins deal with nearly everything that goes wrong.
 
 **Steaming.** Most fabrics arrive slightly creased from the garment bag. A handheld steamer, held a hand's width from the fabric and never touching it, resolves most of it. Steam satin and silk from the inside where possible; direct steam can leave water marks on the face. Do not iron anything unless the designer has told you the fabric tolerates it, and never iron tulle, which melts.
 
@@ -32,7 +34,7 @@ The dress has one job, and it does it in a day. What happens in the weeks afterw
 
 Whatever happens, tell the cleaner afterwards exactly what the stain is. Cleaning is far more effective when the chemistry is known.
 
-## The first week: why it matters most
+## Why does the first week after the wedding matter most?
 
 Most of the damage a dress suffers is invisible on the day. Sugar from drinks dries clear and turns yellow over months. Sweat and body oils along the bodice and underarms oxidise. A hem that brushed a lawn holds moisture. None of this shows in the photographs, and all of it is far easier to remove in the first week than in the sixth month.
 
@@ -44,7 +46,7 @@ So, within the first few days:
 
 If you are travelling straight after the wedding, ask someone to do this for you. It is the one task that cannot wait for your return.
 
-## Professional cleaning versus dry cleaning
+## What is the difference between specialist cleaning and dry cleaning?
 
 A standard dry cleaner uses a solvent bath and a tumbling drum. That process is fine for a wool suit and hazardous for a beaded silk dress: solvents can dissolve the glue behind embellishments, dull sequins and strip finish from some silks, and the tumbling can tear tulle.
 
@@ -60,7 +62,7 @@ Questions that tell the two apart:
 
 A cleaner who cannot answer these is a dry cleaner with a wedding sign in the window.
 
-## Preservation and storage
+## How should a wedding dress be stored?
 
 If you intend to keep the dress, the enemies are light, humidity, acid and creasing.
 
@@ -74,7 +76,7 @@ If you intend to keep the dress, the enemies are light, humidity, acid and creas
 
 **Check it.** Once a year, open the box with clean hands, look for yellowing or marks, and refold along different lines. A dress that is looked at is a dress that is kept.
 
-## If you do not intend to keep it
+## What if you do not intend to keep the dress?
 
 Cleaning is still the first step. A clean dress can be sold, donated, altered into something else, or passed on. A stained one, after a year, often cannot. Whatever the plan, the first week is the same.
 

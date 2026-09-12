@@ -14,11 +14,11 @@ faq:
     a: "One person you trust, and ideally the person who will dress you on the day. They need to learn the closure and the bustle at the final fitting. A group produces conflicting opinions and makes it harder to notice how the dress actually feels."
 ---
 
-Fittings are where a dress becomes yours, and they are also where most of the avoidable problems begin. A hem set to the wrong shoes, a strap adjusted before the bra was chosen, a bustle nobody learned to do. None of these are disasters, but each one is a small piece of the wedding you end up thinking about instead of enjoying.
+Fittings are where a dress becomes yours, and they are also where most of the avoidable problems begin. A fitting is an appointment where a seamstress adjusts the dress on your body, in the shoes and underwear you will wear on the day. A hem set to the wrong shoes, a strap adjusted before the bra was chosen, a bustle nobody learned to do. None of these are disasters, but each one is a small piece of the wedding you end up thinking about instead of enjoying.
 
 Most dresses go through three or four fittings. The exact number depends on how the dress was bought, off the rack, ordered in a standard size or made to measure (the [questions guide](/guides/questions-before-buying-wedding-dress/) explains the difference), but the sequence is much the same. Here is what happens at each, what to bring, and what to check before you leave the room.
 
-## What to bring, every time
+## What should you bring to every fitting?
 
 **The shoes.** From the second fitting onward, the exact shoes you will wear, not a similar pair. Hem length is set to the heel, and two centimetres of difference shows. If you plan to change into flats for dancing, bring both pairs and say so, because a hem set for heels will trail once you switch.
 
@@ -40,7 +40,9 @@ This happens when the dress arrives, or in made-to-measure work, before it is cu
 
 **What not to worry about.** The dress will not fit. It is not supposed to yet. Excess fabric, a loose bodice and a long hem are normal at this stage.
 
-## The second fitting
+## What happens at the second fitting?
+
+At the second fitting you test the fit in your wedding shoes and underwear, because after it the seamstress starts cutting fabric.
 
 For made to measure, this is often the toile or muslin: a version of the dress in plain cotton that exists only to check fit and proportion. For an ordered dress, it is the real dress with the first round of alterations tacked in. Either way, this is the fitting where the shape is decided, and it is the last point at which big changes are straightforward.
 
@@ -70,7 +72,7 @@ The dress is close to finished and the work moves to the details.
 
 **Bustle.** If the dress has a train, this is where the bustle is designed. Ask to see it up and down. Check that the bustled skirt clears the floor at the back and does not pull the waist seam. A French bustle sits under the skirt and looks cleaner; an over-bustle sits on top and is easier for a helper to find. Ask which you are getting.
 
-## The final fitting and collection
+## What happens at the final fitting?
 
 Everything should be finished. Try the dress on with every layer, do the five tests one last time, and then use this appointment for what it is really for: learning the dress.
 
@@ -80,7 +82,7 @@ Everything should be finished. Try the dress on with every layer, do the five te
 
 **Check the bag.** The dress should leave in a breathable garment bag, not plastic, with the veil and any belt or accessories packed with it or clearly separate. Ask how to hang it and how to steam it if it creases in transport.
 
-## If something feels wrong
+## What if something feels wrong?
 
 Say it now, in the room, in plain words. Not "I think it might be fine", but "the bodice is tight here and I cannot breathe fully". Seamstresses are used to this. They would far rather hear it at the fitting than in an email the week before the wedding, when there is no time left to fix it.
 
