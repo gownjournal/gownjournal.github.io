@@ -8,268 +8,287 @@
 <meta property="og:title" content="שני ששון · שמלות כלה בוהו שיק">
 <meta property="og:description" content="השמלה נתפרת עלייך, בסטודיו בעין חי 7 הוד השרון. קביעת פגישת מדידה.">
 <meta property="og:type" content="website">
+<meta property="og:locale" content="he_IL">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bellefair&family=Assistant:wght@300;400;600;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Frank+Ruhl+Libre:wght@400;500;700&family=Heebo:wght@300;400;500;600&family=Inter:wght@400;500;600&display=swap">
 <style>
+/* Palette, scale and devices inherited from The Gown Journal (src/css/style.css).
+   Latin glyphs render in the brand faces; Hebrew falls through to their closest
+   counterparts — Frank Ruhl Libre for Cormorant Garamond, Heebo for Inter. */
 :root{
-  --ground:#F2F1EC;
-  --surface:#FBFAF8;
-  --ink:#232B26;
-  --ink-soft:#5E675F;
-  --line:#DCDAD1;
-  --line-soft:#E8E6DE;
-  --accent:#7B8A6E;
-  --accent-deep:#3D4739;
-  --clay:#B98E7C;
-  --display:"Bellefair","Frank Ruhl Libre",Georgia,serif;
-  --body:"Assistant","Segoe UI",system-ui,-apple-system,sans-serif;
-  --maxw:1120px;
-  --gutter:clamp(16px,5vw,56px);
+  --bg:#faf7f2;
+  --bg-card:#ffffff;
+  --bg-tint:#f1eae1;
+  --ink:#2b2622;
+  --ink-soft:#675e57;
+  --accent:#8d5a44;
+  --accent-ink:#6e4534;
+  --line:#e6ddd2;
+  --serif:"Cormorant Garamond","Frank Ruhl Libre",Georgia,serif;
+  --sans:"Inter","Heebo","Segoe UI",Helvetica,Arial,sans-serif;
+  --wrap:72rem;
+  --measure:42rem;
 }
-*,*::before,*::after{box-sizing:border-box}
-html{-webkit-text-size-adjust:100%}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
 body{
   margin:0;
-  background:var(--ground);
+  background:var(--bg);
   color:var(--ink);
-  font-family:var(--body);
-  font-weight:400;
-  font-size:17px;
-  line-height:1.65;
+  font-family:var(--sans);
+  font-size:1.0625rem;
+  line-height:1.7;
   -webkit-font-smoothing:antialiased;
 }
 img{max-width:100%;display:block}
-a{color:inherit}
-:focus-visible{outline:2px solid var(--accent-deep);outline-offset:3px;border-radius:2px}
-.wrap{max-width:var(--maxw);margin-inline:auto;padding-inline:var(--gutter)}
+a{color:var(--accent-ink);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:.18em;text-decoration-color:rgba(141,90,68,.45)}
+a:hover{text-decoration-color:currentColor}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:3px}
+.wrap{max-width:var(--wrap);margin:0 auto;padding:0 1.5rem}
 
 /* ---------- type ---------- */
-h1,h2,h3{font-family:var(--display);font-weight:400;margin:0;text-wrap:balance;line-height:1.12;letter-spacing:.005em}
-h1{font-size:clamp(2.6rem,7.2vw,4.5rem)}
-h2{font-size:clamp(2rem,4.6vw,3rem)}
-h3{font-size:clamp(1.35rem,2.4vw,1.6rem);line-height:1.25}
-p{margin:0}
-.eyebrow{
-  font-size:.74rem;font-weight:600;letter-spacing:.16em;
-  color:var(--accent);text-transform:none;margin:0;
+h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.15;margin:0;text-wrap:balance}
+.eyebrow{font-family:var(--sans);font-size:.74rem;letter-spacing:.12em;color:var(--accent);margin:0 0 .5rem;font-weight:600}
+.lede{font-size:1.2rem;color:var(--ink-soft);line-height:1.55;margin:.8rem 0 0;max-width:var(--measure);font-weight:300}
+.section-title{
+  font-family:var(--sans);font-size:1.05rem;font-weight:600;letter-spacing:.08em;
+  color:var(--ink-soft);margin:0 0 1.5rem;padding-bottom:.6rem;border-bottom:1px solid var(--line);
 }
-.lede{font-size:clamp(1.05rem,1.9vw,1.2rem);font-weight:300;color:var(--ink-soft);max-width:62ch}
-.rule{height:1px;background:var(--line);border:0;margin:0}
+p{margin:0}
 
 /* ---------- header ---------- */
-.site-head{
-  position:sticky;top:env(safe-area-inset-top,0px);z-index:50;
-  background:rgba(242,241,236,.88);
-  backdrop-filter:blur(12px);
-  border-bottom:1px solid var(--line-soft);
+.site-header{
+  border-bottom:1px solid var(--line);background:rgba(250,247,242,.92);
+  backdrop-filter:blur(10px);position:sticky;top:env(safe-area-inset-top,0px);z-index:50;
 }
-.site-head__in{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:66px}
-.wordmark{font-family:var(--display);font-size:1.5rem;letter-spacing:.06em;text-decoration:none;line-height:1}
-.wordmark small{display:block;font-family:var(--body);font-size:.6rem;letter-spacing:.22em;color:var(--accent);font-weight:600;margin-top:3px}
+.header-inner{display:flex;align-items:center;justify-content:space-between;gap:1.5rem;padding-block:1rem}
+.brand{display:inline-flex;flex-direction:column;gap:.15rem;color:var(--ink);text-decoration:none}
+.brand-name{font-family:var(--serif);font-weight:600;font-size:1.55rem;line-height:1}
+.brand-sub{font-family:var(--sans);font-size:.7rem;letter-spacing:.14em;color:var(--accent);font-weight:600}
 
 /* ---------- buttons ---------- */
 .btn{
-  display:inline-flex;align-items:center;justify-content:center;gap:9px;
-  font-family:var(--body);font-size:.97rem;font-weight:600;
-  padding:14px 26px;border-radius:2px;border:1px solid transparent;
-  text-decoration:none;cursor:pointer;transition:background .18s ease,color .18s ease,border-color .18s ease;
-  line-height:1;
+  display:inline-flex;align-items:center;justify-content:center;gap:.5rem;
+  background:var(--accent);color:#fff;padding:.7rem 1.3rem;border-radius:4px;
+  text-decoration:none;font-size:.95rem;font-weight:500;font-family:var(--sans);
+  border:1px solid var(--accent);cursor:pointer;line-height:1.3;transition:background .18s ease;
 }
-.btn--primary{background:var(--accent-deep);color:#F7F6F1}
-.btn--primary:hover{background:var(--ink)}
-.btn--ghost{background:transparent;color:var(--ink);border-color:var(--ink)}
-.btn--ghost:hover{background:var(--ink);color:var(--ground)}
-.btn--sm{padding:11px 20px;font-size:.88rem}
-.btn svg{width:17px;height:17px;flex:none;fill:currentColor}
-.btn-row{display:flex;flex-wrap:wrap;gap:12px}
+.btn:hover{background:var(--accent-ink);border-color:var(--accent-ink);text-decoration:none}
+.btn-ghost{background:transparent;color:var(--accent-ink)}
+.btn-ghost:hover{background:var(--bg-tint);color:var(--accent-ink);border-color:var(--accent)}
+.btn svg{width:1.05em;height:1.05em;flex:none;fill:currentColor}
+.btn-row{display:flex;gap:.8rem;flex-wrap:wrap;margin-top:1.8rem}
 
 /* ---------- hero ---------- */
-.hero{padding-block:clamp(44px,7vw,84px) clamp(48px,8vw,96px)}
-.hero__grid{display:grid;grid-template-columns:1.05fr .95fr;gap:clamp(28px,5vw,64px);align-items:center}
-.hero__copy{display:flex;flex-direction:column;gap:22px}
-.hero__h1 em{font-style:normal;color:var(--accent)}
-.hero__photo{position:relative}
-.hero__photo img{width:100%;aspect-ratio:2/3;object-fit:cover;max-width:100%}
-.hero__tag{
-  position:absolute;inset-inline-start:-1px;bottom:22px;
-  background:var(--surface);border-inline-start:2px solid var(--clay);
-  padding:11px 17px;font-size:.8rem;color:var(--ink-soft);max-width:78%;
+.hero{padding:4rem 1.5rem 2.5rem}
+.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:3rem;align-items:center}
+.hero h1{font-size:clamp(2.4rem,5.5vw,4rem);max-width:15ch;letter-spacing:-.005em}
+.hero h1 em{font-style:italic;color:var(--accent)}
+.hero .lede{font-size:1.22rem}
+.hero-figure{position:relative}
+.hero-figure img{width:100%;aspect-ratio:2/3;object-fit:cover;border-radius:6px;background:var(--bg-tint)}
+.hero-figure figcaption{
+  position:absolute;inset-inline-start:1rem;bottom:1rem;max-width:78%;
+  background:var(--bg-card);border-inline-start:3px solid var(--accent);border-radius:4px;
+  padding:.7rem 1rem;font-size:.85rem;color:var(--ink-soft);line-height:1.45;
 }
-.facts{display:flex;flex-wrap:wrap;gap:0;border-top:1px solid var(--line);padding-top:18px;margin-top:4px}
-.facts div{padding-inline-end:26px;margin-inline-end:26px;border-inline-end:1px solid var(--line)}
+.facts{display:flex;flex-wrap:wrap;gap:0;margin:2rem 0 0;padding-top:1.1rem;border-top:1px solid var(--line)}
+.facts div{padding-inline-end:1.6rem;margin-inline-end:1.6rem;border-inline-end:1px solid var(--line)}
 .facts div:last-child{border:0;margin:0;padding:0}
-.facts dt{font-size:.72rem;letter-spacing:.13em;color:var(--accent);font-weight:600;margin-bottom:3px}
-.facts dd{margin:0;font-family:var(--display);font-size:1.45rem;line-height:1.1}
+.facts dt{font-size:.72rem;letter-spacing:.1em;color:var(--accent);font-weight:600}
+.facts dd{margin:.15rem 0 0;font-family:var(--serif);font-size:1.5rem;line-height:1.1}
 
-/* ---------- sections ---------- */
-section{scroll-margin-top:84px}
-.band{padding-block:clamp(52px,8vw,96px)}
-.band--surface{background:var(--surface);border-block:1px solid var(--line-soft)}
-.band--ink{background:var(--ink);color:#EDEEE9}
-.band--ink .eyebrow{color:#A8B79B}
-.band--ink .lede{color:#BEC3B9}
-.sec-head{display:flex;flex-direction:column;gap:12px;margin-bottom:clamp(28px,4vw,46px);max-width:66ch}
+/* ---------- bands ---------- */
+.band{padding:3.5rem 0}
+.band-tint{background:var(--bg-tint);border-block:1px solid var(--line)}
+.band-head{margin-bottom:2rem;max-width:var(--measure)}
+.band-head h2{font-size:clamp(1.9rem,4vw,2.7rem)}
 
-/* ---------- pillars ---------- */
-.pillars{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(20px,3.5vw,40px)}
-.pillar{display:flex;flex-direction:column;gap:11px}
-.pillar__n{font-family:var(--display);font-size:1.05rem;color:var(--accent);border-bottom:1px solid var(--line);padding-bottom:9px;letter-spacing:.1em}
-.pillar p{color:var(--ink-soft);font-weight:300}
-
-/* ---------- fitting card ---------- */
-.fit{display:grid;grid-template-columns:.92fr 1.08fr;gap:clamp(26px,4.5vw,56px);align-items:start}
-.card{
-  background:var(--surface);border:1px solid var(--line);
-  padding:clamp(22px,3.2vw,34px);
+/* ---------- pillars (hairline grid device) ---------- */
+.pillar-grid{
+  display:grid;gap:1px;background:var(--line);border:1px solid var(--line);
+  border-radius:6px;overflow:hidden;grid-template-columns:repeat(auto-fit,minmax(16rem,1fr));
 }
-.card__head{display:flex;align-items:baseline;justify-content:space-between;gap:12px;border-bottom:1px solid var(--ink);padding-bottom:12px;margin-bottom:6px}
-.card__head h3{font-size:1.5rem}
-.card__head span{font-size:.7rem;letter-spacing:.14em;color:var(--accent);font-weight:600}
-.measures{list-style:none;margin:0;padding:0}
-.measures li{display:flex;align-items:baseline;gap:8px;padding:11px 0;border-bottom:1px dotted var(--line)}
-.measures li:last-child{border-bottom:0}
-.measures .m-name{font-size:.95rem;white-space:nowrap}
-.measures .m-lead{flex:1;border-bottom:1px dotted #C6C3B8;transform:translateY(-4px)}
-.measures .m-unit{font-size:.75rem;color:var(--accent);letter-spacing:.08em;white-space:nowrap}
-.card__foot{margin-top:16px;padding-top:14px;border-top:1px solid var(--line);font-size:.85rem;color:var(--ink-soft);font-weight:300}
+.pillar{display:flex;flex-direction:column;gap:.4rem;padding:1.6rem 1.7rem;background:var(--bg-card)}
+.pillar-n{font-size:.78rem;letter-spacing:.1em;color:var(--accent);font-weight:600}
+.pillar h3{font-family:var(--serif);font-size:1.45rem;font-weight:500}
+.pillar p{color:var(--ink-soft);font-size:.98rem;line-height:1.55}
 
-/* ---------- stages ---------- */
-.stages{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:0}
-.stages li{display:grid;grid-template-columns:auto 1fr;gap:20px;padding-block:22px;border-bottom:1px solid var(--line)}
+/* ---------- fitting ---------- */
+.fit-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:2.5rem;align-items:start}
+.card-lead{background:var(--bg-tint);border-radius:6px;padding:2rem 2.2rem}
+.band-tint .card-lead{background:var(--bg-card);border:1px solid var(--line)}
+.card-lead-head{display:flex;align-items:baseline;justify-content:space-between;gap:1rem;border-bottom:1px solid var(--accent);padding-bottom:.7rem;margin-bottom:.4rem}
+.card-lead-head h3{font-size:1.6rem}
+.card-lead-head span{font-size:.72rem;letter-spacing:.1em;color:var(--accent);font-weight:600}
+.measures{list-style:none;margin:0;padding:0}
+.measures li{display:flex;align-items:baseline;gap:.5rem;padding:.65rem 0;border-bottom:1px dotted var(--line)}
+.measures li:last-child{border-bottom:0}
+.m-name{font-size:.95rem;white-space:nowrap}
+.m-lead{flex:1;border-bottom:1px dotted #cbbfb1;transform:translateY(-.25em)}
+.m-unit{font-size:.75rem;letter-spacing:.06em;color:var(--accent);white-space:nowrap}
+.card-lead-foot{margin-top:1rem;padding-top:.9rem;border-top:1px solid var(--line);font-size:.9rem;color:var(--ink-soft);line-height:1.55}
+
+.stages{list-style:none;margin:0;padding:0}
+.stages li{display:grid;grid-template-columns:auto 1fr;gap:1.3rem;padding:1.4rem 0;border-bottom:1px solid var(--line)}
 .stages li:first-child{padding-top:0}
 .stages li:last-child{border-bottom:0}
-.stages .st-n{
-  font-family:var(--display);font-size:1.7rem;line-height:1;color:var(--accent);
-  width:40px;text-align:center;border-inline-end:1px solid var(--line);padding-inline-end:16px;
+.stage-n{
+  font-family:var(--serif);font-size:1.9rem;line-height:1;color:var(--accent);
+  width:2.6rem;text-align:center;border-inline-end:1px solid var(--line);padding-inline-end:1rem;
 }
-.stages h3{margin-bottom:6px}
-.stages p{color:var(--ink-soft);font-weight:300;font-size:.97rem}
+.stages h3{font-size:1.45rem;margin-bottom:.25rem}
+.stages p{color:var(--ink-soft);font-size:.98rem;line-height:1.6}
 
 /* ---------- gallery ---------- */
-.gal{display:grid;grid-template-columns:repeat(4,1fr);gap:clamp(12px,1.8vw,22px)}
-.gown{display:flex;flex-direction:column;gap:11px;text-decoration:none}
-.gown img{width:100%;aspect-ratio:2/3;object-fit:cover;background:#E6E4DC;transition:opacity .25s ease}
-.gown:hover img{opacity:.88}
-.gown figcaption{font-size:.87rem;line-height:1.4;color:var(--ink-soft);font-weight:300}
+.gowns{list-style:none;margin:0;padding:0;display:grid;gap:1.25rem;grid-template-columns:repeat(auto-fill,minmax(14rem,1fr))}
+.gown{display:flex;flex-direction:column;gap:.6rem}
+.gown img{width:100%;aspect-ratio:2/3;object-fit:cover;border-radius:6px;background:var(--bg-tint)}
+.gown figcaption{font-size:.92rem;color:var(--ink-soft);line-height:1.5}
+.gown-more{
+  display:flex;flex-direction:column;justify-content:center;align-items:center;gap:.8rem;text-align:center;
+  aspect-ratio:2/3;background:var(--bg-tint);border-radius:6px;padding:1.6rem;
+}
+.gown-more p:first-child{font-family:var(--serif);font-size:1.6rem;line-height:1.2}
+.gown-more p{color:var(--ink-soft);font-size:.95rem}
 
 /* ---------- about ---------- */
-.about{display:grid;grid-template-columns:.85fr 1.15fr;gap:clamp(26px,4.5vw,60px);align-items:center}
-.about img{width:100%;aspect-ratio:3/4;object-fit:cover}
-.about__body{display:flex;flex-direction:column;gap:18px}
-.sig{font-family:var(--display);font-size:1.7rem;color:var(--accent)}
-
-/* ---------- todo marker ---------- */
-.todo{
-  border:1px dashed var(--clay);background:rgba(185,142,124,.07);
-  padding:20px 22px;display:flex;flex-direction:column;gap:8px;
+.about-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:2.8rem;align-items:center}
+.about-grid img{width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:6px}
+.about-body{display:flex;flex-direction:column;gap:1rem}
+.about-body h2{font-size:clamp(1.9rem,4vw,2.7rem)}
+.about-body p{color:var(--ink-soft)}
+.pull{
+  margin:.4rem 0;padding:.2rem 1.4rem;border-inline-start:3px solid var(--accent);
+  font-family:var(--serif);font-size:1.3rem;line-height:1.45;color:var(--ink-soft);
 }
-.todo b{font-size:.73rem;letter-spacing:.14em;color:var(--clay);font-weight:700}
-.todo p{font-size:.92rem;color:var(--ink-soft);font-weight:300}
+
+/* ---------- editor note ---------- */
+.note-todo{
+  background:var(--bg-card);border:1px dashed var(--accent);border-radius:6px;
+  padding:1.3rem 1.6rem;max-width:var(--measure);margin-inline:auto;
+}
+.note-todo p:first-child{font-size:.75rem;letter-spacing:.1em;color:var(--accent);font-weight:600;margin-bottom:.4rem}
+.note-todo p{color:var(--ink-soft);font-size:.96rem;line-height:1.6}
 
 /* ---------- faq ---------- */
-.faq{max-width:78ch;margin-inline:auto}
-.faq details{border-bottom:1px solid var(--line)}
+.faq{max-width:var(--measure);margin-inline:auto}
+.faq details{border-bottom:1px solid var(--line);padding:.8rem 0}
 .faq summary{
-  cursor:pointer;list-style:none;padding:20px 0;
-  font-family:var(--display);font-size:1.28rem;
-  display:flex;align-items:center;justify-content:space-between;gap:16px;
+  cursor:pointer;list-style:none;position:relative;padding-inline-end:1.6rem;
+  font-family:var(--serif);font-size:1.35rem;font-weight:500;
 }
+.faq summary::after{content:"+";position:absolute;inset-inline-end:0;top:0;color:var(--accent);font-size:1.2rem;line-height:1.4;font-family:var(--sans)}
+.faq details[open] summary::after{content:"−"}
 .faq summary::-webkit-details-marker{display:none}
-.faq summary::after{content:"+";color:var(--accent);font-size:1.4rem;flex:none;transition:transform .2s ease}
-.faq details[open] summary::after{transform:rotate(45deg)}
-.faq details p{padding-bottom:20px;color:var(--ink-soft);font-weight:300;max-width:68ch}
+.faq p{margin:.5rem 0 0;color:var(--ink-soft)}
 
-/* ---------- form ---------- */
-.cta-grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(28px,5vw,64px);align-items:start}
-.form{display:flex;flex-direction:column;gap:15px}
-.field{display:flex;flex-direction:column;gap:6px}
-.field label{font-size:.76rem;letter-spacing:.11em;font-weight:600;color:#A8B79B}
+/* ---------- cta ---------- */
+.band-cta{background:var(--accent-ink);color:#f7f2ec;border-block:0}
+.band-cta h2{color:#fdfbf8;font-size:clamp(1.9rem,4vw,2.7rem)}
+.band-cta .eyebrow{color:#e4c3b1}
+.band-cta .lede{color:#e6d7cc}
+.cta-grid{display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:start}
+.contact{list-style:none;margin:1.8rem 0 0;padding:0}
+.contact li{padding:.9rem 0;border-bottom:1px solid rgba(255,255,255,.16);display:flex;flex-direction:column;gap:.15rem}
+.contact li:first-child{padding-top:0}
+.c-k{font-size:.72rem;letter-spacing:.1em;color:#e4c3b1;font-weight:600}
+.contact a{font-family:var(--serif);font-size:1.4rem;color:#fdfbf8;text-decoration:none}
+.contact a:hover{text-decoration:underline;text-decoration-color:#e4c3b1}
+
+.form{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.18);border-radius:6px;padding:1.6rem 1.7rem;display:flex;flex-direction:column;gap:1rem}
+.field{display:flex;flex-direction:column;gap:.3rem}
+.field label{font-size:.74rem;letter-spacing:.09em;color:#e4c3b1;font-weight:600}
 .field input,.field textarea{
-  font-family:var(--body);font-size:1rem;color:#EDEEE9;
-  background:transparent;border:0;border-bottom:1px solid #4A5349;
-  padding:10px 2px;border-radius:0;
+  font-family:var(--sans);font-size:1rem;color:#fdfbf8;background:transparent;
+  border:0;border-bottom:1px solid rgba(255,255,255,.3);padding:.5rem .1rem;border-radius:0;
 }
-.field input:focus,.field textarea:focus{outline:none;border-bottom-color:#A8B79B}
-.field textarea{resize:vertical;min-height:62px}
-.form .btn{margin-top:8px;align-self:flex-start}
-.form__note{font-size:.8rem;color:#98A192;font-weight:300}
-.contact-list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:0}
-.contact-list li{padding-block:16px;border-bottom:1px solid #39413A;display:flex;flex-direction:column;gap:4px}
-.contact-list li:first-child{padding-top:0}
-.contact-list dt,.contact-list .c-k{font-size:.72rem;letter-spacing:.13em;color:#A8B79B;font-weight:600}
-.contact-list a,.contact-list .c-v{font-family:var(--display);font-size:1.4rem;text-decoration:none;color:#EDEEE9}
-.contact-list a:hover{color:#A8B79B}
+.field input::placeholder,.field textarea::placeholder{color:rgba(253,251,248,.45)}
+.field input:focus,.field textarea:focus{outline:none;border-bottom-color:#e4c3b1}
+.field textarea{resize:vertical;min-height:3.2rem}
+.form .btn{background:#fdfbf8;color:var(--accent-ink);border-color:#fdfbf8;align-self:flex-start;margin-top:.2rem}
+.form .btn:hover{background:#e4c3b1;border-color:#e4c3b1;color:var(--accent-ink)}
+.form-note{font-size:.85rem;color:#d8c5b8;line-height:1.5}
 
 /* ---------- footer ---------- */
-.site-foot{background:var(--ink);color:#9AA396;padding-block:30px 26px;font-size:.84rem;border-top:1px solid #39413A}
-.site-foot__in{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between;align-items:center}
-.site-foot a{color:#C3CBBC}
+.site-footer{border-top:1px solid var(--line);background:var(--bg-tint);padding:3rem 0 2rem;font-size:.93rem}
+.footer-grid{display:grid;gap:2rem;grid-template-columns:2fr 1fr 1fr}
+.footer-brand{font-family:var(--serif);font-size:1.5rem;font-weight:600;margin:0 0 .3rem}
+.footer-head{font-weight:600;font-size:.78rem;letter-spacing:.1em;color:var(--ink-soft);margin:0 0 .5rem}
+.site-footer ul{list-style:none;margin:0;padding:0}
+.site-footer li{margin:.25rem 0}
+.site-footer a{color:var(--ink);text-decoration:none}
+.site-footer a:hover{text-decoration:underline}
+.site-footer p{color:var(--ink-soft)}
+.footer-bottom{margin-top:2.5rem;padding-top:1.2rem;border-top:1px solid var(--line)}
 
 /* ---------- sticky mobile bar ---------- */
 .mobar{
-  position:fixed;inset-inline:0;bottom:0;z-index:60;display:none;
-  gap:10px;padding:10px var(--gutter);
-  padding-bottom:calc(10px + env(safe-area-inset-bottom,0px));
-  background:rgba(35,43,38,.96);backdrop-filter:blur(10px);
+  position:fixed;inset-inline:0;bottom:0;z-index:60;display:none;gap:.6rem;
+  padding:.6rem 1.5rem;padding-bottom:calc(.6rem + env(safe-area-inset-bottom,0px));
+  background:rgba(250,247,242,.96);backdrop-filter:blur(10px);border-top:1px solid var(--line);
 }
-.mobar .btn{flex:1;padding:13px 10px}
-.mobar .btn--ghost{color:#EDEEE9;border-color:#6E7A69}
+.mobar .btn{flex:1}
 
 /* ---------- responsive ---------- */
-@media (max-width:980px){
-  .hero__grid{grid-template-columns:1fr;gap:34px}
-  .hero__photo{order:-1}
-  .hero__photo img{aspect-ratio:4/5}
-  .pillars{grid-template-columns:1fr;gap:26px}
-  .fit,.about,.cta-grid{grid-template-columns:1fr}
-  .about img{aspect-ratio:16/10}
-  .gal{grid-template-columns:repeat(3,1fr)}
+@media (max-width:900px){
+  .hero-grid,.fit-grid,.about-grid,.cta-grid{grid-template-columns:1fr;gap:2rem}
+  .hero-figure{order:-1}
+  .hero-figure img{aspect-ratio:4/5}
+  .about-grid img{aspect-ratio:16/10}
+  .hero h1{max-width:none}
 }
-@media (max-width:640px){
-  body{font-size:16px}
-  .gal{grid-template-columns:repeat(2,1fr)}
-  .site-head__in .btn{display:none}
+@media (max-width:720px){
+  body{font-size:1rem}
+  .hero{padding-top:2.5rem}
+  .footer-grid{grid-template-columns:1fr}
+  .header-inner .btn{display:none}
   .mobar{display:flex}
-  body{padding-bottom:78px}
-  .facts div{padding-inline-end:16px;margin-inline-end:16px}
-  .facts dd{font-size:1.2rem}
-  .stages li{grid-template-columns:1fr;gap:8px}
-  .stages .st-n{border:0;padding:0;width:auto;text-align:start}
+  body{padding-bottom:4.6rem}
+  .facts div{padding-inline-end:1rem;margin-inline-end:1rem}
+  .facts dd{font-size:1.25rem}
+  .stages li{grid-template-columns:1fr;gap:.4rem}
+  .stage-n{border:0;padding:0;width:auto;text-align:start}
+  .card-lead{padding:1.5rem 1.4rem}
 }
 @media (prefers-reduced-motion:reduce){
-  *{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+  html{scroll-behavior:auto}
+  *{transition:none!important;animation:none!important}
 }
 </style>
 </head>
 <body>
 
-<header class="site-head">
-  <div class="wrap site-head__in">
-    <a class="wordmark" href="#top">שני ששון<small>שמלות כלה · בוהו שיק</small></a>
-    <a class="btn btn--primary btn--sm" href="#פגישה">קביעת פגישה</a>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="#top">
+      <span class="brand-name">שני ששון</span>
+      <span class="brand-sub">שמלות כלה · בוהו שיק</span>
+    </a>
+    <a class="btn" href="#פגישה">קביעת פגישה</a>
   </div>
 </header>
 
 <main id="top">
 
   <!-- HERO -->
-  <section class="hero wrap">
-    <div class="hero__grid">
-      <div class="hero__copy">
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
         <p class="eyebrow">סטודיו בעין חי 7, הוד השרון</p>
-        <h1 class="hero__h1">השמלה נתפרת <em>עלייך</em>.<br>לא להפך.</h1>
+        <h1>השמלה נתפרת <em>עלייך</em>. לא להפך.</h1>
         <p class="lede">
           כל שמלה בסטודיו נתפרת למידות שלך — גובה הגב והמחשוף, הבטנה, החגורה והאורך
-          מותאמים למבנה הגוף שלך ולדגם שבחרת. בלי מדף, בלי פשרות, בלי לנסות להיכנס למשהו
-          שנתפר למישהי אחרת.
+          נקבעים לפי מבנה הגוף שלך ולפי הדגם שבחרת. בלי מדף, בלי לנסות להיכנס למשהו
+          שנתפר עבור מישהי אחרת.
         </p>
         <div class="btn-row">
-          <a class="btn btn--primary" href="https://wa.me/972525557106?text=%D7%94%D7%99%D7%99%20%D7%A9%D7%A0%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%9E%D7%94%D7%90%D7%AA%D7%A8%20%D7%95%D7%90%D7%A9%D7%9E%D7%97%20%D7%9C%D7%A7%D7%91%D7%95%D7%A2%20%D7%A4%D7%92%D7%99%D7%A9%D7%AA%20%D7%9E%D7%93%D7%99%D7%93%D7%94%20%3A%29" target="_blank" rel="noopener">
+          <a class="btn" href="https://wa.me/972525557106?text=%D7%94%D7%99%D7%99%20%D7%A9%D7%A0%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%9E%D7%94%D7%90%D7%AA%D7%A8%20%D7%95%D7%90%D7%A9%D7%9E%D7%97%20%D7%9C%D7%A7%D7%91%D7%95%D7%A2%20%D7%A4%D7%92%D7%99%D7%A9%D7%AA%20%D7%9E%D7%93%D7%99%D7%93%D7%94" target="_blank" rel="noopener">
             <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.5 14.4c-.3-.2-1.7-.9-2-1-.3-.1-.5-.1-.7.1-.2.3-.7 1-.9 1.2-.2.2-.3.2-.6.1-.3-.2-1.2-.5-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6l.5-.5c.1-.2.2-.3.3-.5 0-.2 0-.4 0-.5 0-.2-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.4s1.1 2.8 1.2 3c.2.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.7-.7 2-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.6-.3M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2m0 18.2c-1.6 0-3.2-.5-4.6-1.3l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2"/></svg>
             פגישת מדידה בוואטסאפ
           </a>
-          <a class="btn btn--ghost" href="#דגמים">לראות דגמים</a>
+          <a class="btn btn-ghost" href="#דגמים">לראות דגמים</a>
         </div>
         <dl class="facts">
           <div><dt>תפירה</dt><dd>לפי מידה</dd></div>
@@ -277,51 +296,48 @@ section{scroll-margin-top:84px}
           <div><dt>הסטודיו</dt><dd>הוד השרון</dd></div>
         </dl>
       </div>
-      <figure class="hero__photo">
+      <figure class="hero-figure">
         <img src="https://static.wixstatic.com/media/86c7d2_e659073414514023ac52e7cb4346bd0b~mv2.jpg/v1/fill/w_1000,h_1500,al_c,q_85/file.jpg" alt="שמלת כלה בוהו מתחרה ושיפון עם מחשוף עמוק" width="1000" height="1500" fetchpriority="high">
-        <figcaption class="hero__tag">כל הדגמים בעמוד הזה נתפרים בסטודיו, ומותאמים למידותייך.</figcaption>
+        <figcaption>כל הדגמים בעמוד הזה נתפרים בסטודיו ומותאמים למידותייך.</figcaption>
       </figure>
     </div>
   </section>
 
   <!-- PILLARS -->
-  <section class="band band--surface">
+  <section class="band band-tint">
     <div class="wrap">
-      <div class="sec-head">
-        <p class="eyebrow">למה סטודיו ולא חנות</p>
-        <h2>שלושה דברים שלא תקבלי ממדף</h2>
-      </div>
-      <div class="pillars">
+      <p class="section-title">למה סטודיו ולא חנות</p>
+      <div class="pillar-grid">
         <article class="pillar">
-          <p class="pillar__n">א׳</p>
+          <p class="pillar-n">א׳</p>
           <h3>המידות שלך, לא מידה 38</h3>
-          <p>אנחנו מודדים ותופרים לפי הגוף שלך. גובה המחשוף, עומק הגב, קו החגורה והאורך נקבעים במדידה — לא בטבלת מידות.</p>
+          <p>מודדים ותופרים לפי הגוף שלך. גובה המחשוף, עומק הגב, קו החגורה והאורך נקבעים במדידה — לא בטבלת מידות.</p>
         </article>
         <article class="pillar">
-          <p class="pillar__n">ב׳</p>
+          <p class="pillar-n">ב׳</p>
           <h3>בוהו זו ההתמחות</h3>
-          <p>תחרה, טול מנוקד, שיפון זורם, מחוך לב, גב פתוח ושובל. זה לא קטגוריה בקטלוג — זו השפה של הסטודיו.</p>
+          <p>תחרה, טול מנוקד, שיפון זורם, מחוך לב, גב פתוח ושובל. זו לא קטגוריה בקטלוג — זו השפה של הסטודיו.</p>
         </article>
         <article class="pillar">
-          <p class="pillar__n">ג׳</p>
+          <p class="pillar-n">ג׳</p>
           <h3>מי שמעצבת היא מי שמודדת</h3>
-          <p>את פוגשת את שני עצמה. אותה אישה שמעצבת את הדגם היא זו שעומדת מולך במדידה ויודעת בדיוק מה אפשר לשנות.</p>
+          <p>את פוגשת את שני עצמה. אותה אישה שמעצבת את הדגם עומדת מולך במדידה ויודעת בדיוק מה אפשר לשנות בו.</p>
         </article>
       </div>
     </div>
   </section>
 
   <!-- FITTING -->
-  <section class="band" id="פגישה-מה">
+  <section class="band">
     <div class="wrap">
-      <div class="sec-head">
+      <div class="band-head">
         <p class="eyebrow">מה קורה בפגישה</p>
         <h2>שעה בסטודיו, בלי התחייבות</h2>
-        <p class="lede">הפגישה הראשונה היא היכרות ומדידה. את מודדת דגמים, אנחנו לוקחים מידות, ומסבירים בדיוק מה ניתן לשנות בכל דגם. אין מכירה בלחץ ואין תשלום על הפגישה.</p>
+        <p class="lede">הפגישה הראשונה היא היכרות ומדידה. את מודדת דגמים, לוקחים מידות, ומסבירים בדיוק מה ניתן לשנות בכל דגם. אין מכירה בלחץ ואין תשלום על הפגישה.</p>
       </div>
-      <div class="fit">
-        <div class="card">
-          <div class="card__head">
+      <div class="fit-grid">
+        <div class="card-lead">
+          <div class="card-lead-head">
             <h3>כרטיס מידות</h3>
             <span>סטודיו שני ששון</span>
           </div>
@@ -335,25 +351,25 @@ section{scroll-margin-top:84px}
             <li><span class="m-name">אורך מהמותן לרצפה</span><span class="m-lead"></span><span class="m-unit">ס״מ</span></li>
             <li><span class="m-name">גובה עם הנעל</span><span class="m-lead"></span><span class="m-unit">ס״מ</span></li>
           </ul>
-          <p class="card__foot">אלה המידות שנלקחות בפגישה הראשונה. לפיהן נקבע מה משתנה בדגם — בבטנה, בחגורה, באורך ובמחשוף.</p>
+          <p class="card-lead-foot">אלה המידות שנלקחות בפגישה הראשונה. לפיהן נקבע מה משתנה בדגם — בבטנה, בחגורה, באורך ובמחשוף.</p>
         </div>
         <ol class="stages">
           <li>
-            <span class="st-n">01</span>
+            <span class="stage-n">01</span>
             <div>
               <h3>מדידה ראשונה</h3>
               <p>מודדים דגמים מהסטודיו, מבינים איזו גזרה עובדת על הגוף שלך, ולוקחים את המידות המלאות. יוצאים עם תמונה ברורה של השמלה ושל המחיר.</p>
             </div>
           </li>
           <li>
-            <span class="st-n">02</span>
+            <span class="stage-n">02</span>
             <div>
               <h3>מדידת התאמה</h3>
               <p>השמלה כבר תפורה על המידות שלך. כאן מדייקים — קו החזה, החגורה, האורך והגב. זה השלב שבו השמלה מתחילה להרגיש שלך.</p>
             </div>
           </li>
           <li>
-            <span class="st-n">03</span>
+            <span class="stage-n">03</span>
             <div>
               <h3>מדידה אחרונה</h3>
               <p>התאמות אחרונות עם הנעליים שתנעלי ביום עצמו, סגירת השובל והאביזרים. יוצאת עם השמלה מוכנה.</p>
@@ -365,76 +381,76 @@ section{scroll-margin-top:84px}
   </section>
 
   <!-- GALLERY -->
-  <section class="band band--surface" id="דגמים">
+  <section class="band band-tint" id="דגמים">
     <div class="wrap">
-      <div class="sec-head">
-        <p class="eyebrow">מתוך הסטודיו</p>
+      <p class="section-title">מתוך הסטודיו</p>
+      <div class="band-head">
         <h2>דגמים שאפשר למדוד בפגישה</h2>
         <p class="lede">כל דגם ניתן להתאמה — מחשוף, גב, שרוול, אורך ושובל משתנים לפי מבנה הגוף ולפי מה שנוח לך.</p>
       </div>
-      <div class="gal">
-        <figure class="gown">
+      <ul class="gowns">
+        <li><figure class="gown">
           <img src="https://static.wixstatic.com/media/86c7d2_47da3cd9a54d4bde82c5e549edd25323~mv2.jpg/v1/fill/w_760,h_1140,al_c,q_80/file.jpg" alt="שמלת כלה בוהו תחרת וינטאג' וטול" loading="lazy" width="760" height="1140">
-          <figcaption>תחרת וינטאג' וטול מנוקד · מחשוף V עמוק ושרוולים רחבים</figcaption>
-        </figure>
-        <figure class="gown">
+          <figcaption>תחרת וינטאג׳ וטול מנוקד · מחשוף V עמוק ושרוולים רחבים</figcaption>
+        </figure></li>
+        <li><figure class="gown">
           <img src="https://static.wixstatic.com/media/86c7d2_b35c5c25433945cda57d59620f827892~mv2.jpg/v1/fill/w_760,h_1140,al_c,q_80/file.jpg" alt="שמלת בוהו תחרה וטול עם מחשוף לב רומנטי" loading="lazy" width="760" height="1140">
           <figcaption>מחוך לב חצי שקוף · כתפיות דקות וגב פתוח</figcaption>
-        </figure>
-        <figure class="gown">
+        </figure></li>
+        <li><figure class="gown">
           <img src="https://static.wixstatic.com/media/86c7d2_e659073414514023ac52e7cb4346bd0b~mv2.jpg/v1/fill/w_760,h_1140,al_c,q_80/file.jpg" alt="שמלת כלה בוהו מתחרה ושיפון עם מחשוף עמוק" loading="lazy" width="760" height="1140">
           <figcaption>מחוך תחרה ושיפון זורם · מחשוף V עמוק</figcaption>
-        </figure>
-        <figure class="gown">
+        </figure></li>
+        <li><figure class="gown">
           <img src="https://static.wixstatic.com/media/86c7d2_a7f905db0a5840369ce15339eb1796ad~mv2.jpg/v1/fill/w_760,h_1140,al_c,q_80/file.jpg" alt="שמלת כלה בוהו מתחרה עם מחוך לב ושובל ארוך" loading="lazy" width="760" height="1140">
           <figcaption>מחוך לב ושובל ארוך · שסע גבוה ושרוולי תחרה</figcaption>
-        </figure>
-        <figure class="gown">
+        </figure></li>
+        <li><figure class="gown">
           <img src="https://static.wixstatic.com/media/86c7d2_254d9a96e910476799df4b60b0d571fd~mv2.jpg/v1/fill/w_760,h_1140,al_c,q_80/file.jpg" alt="שמלת כלה בוהו רומנטית ועדינה מתחרה עם שסע עמוק" loading="lazy" width="760" height="1140">
           <figcaption>גזרת A-line · שכבות טול ותחרה עם שסע עמוק</figcaption>
-        </figure>
-        <figure class="gown">
+        </figure></li>
+        <li><figure class="gown">
           <img src="https://static.wixstatic.com/media/86c7d2_38a7475f3ddc438b8a3d045469d4d4df~mv2.jpg/v1/fill/w_760,h_1140,al_c,q_80/file.jpg" alt="שמלת כלה בוהו רומנטית עם גב פתוח ושובל תחרה" loading="lazy" width="760" height="1140">
           <figcaption>מחשוף V קדמי ואחורי · שובל תחרה זורם</figcaption>
-        </figure>
-        <figure class="gown">
+        </figure></li>
+        <li><figure class="gown">
           <img src="https://static.wixstatic.com/media/86c7d2_ffdac4e521d0492bb1f146068949cc8f~mv2.jpg/v1/fill/w_760,h_1140,al_c,q_80/file.jpg" alt="שמלת כלה תחרה רומנטית עם שרוולים קצרים" loading="lazy" width="760" height="1140">
           <figcaption>תחרה קלילה · שרוולים קצרים וקפלים במותן</figcaption>
-        </figure>
-        <figure class="gown" style="justify-content:center">
-          <div style="aspect-ratio:2/3;display:flex;flex-direction:column;justify-content:center;gap:14px;border:1px solid var(--line);padding:22px;text-align:center">
-            <p style="font-family:var(--display);font-size:1.5rem;line-height:1.2">בסטודיו יש עוד.</p>
-            <p style="font-size:.88rem;color:var(--ink-soft);font-weight:300">הדגמים שמוצגים כאן הם חלק מהקולקציה. בפגישה תראי את כולם.</p>
-            <a class="btn btn--ghost btn--sm" href="#פגישה" style="align-self:center">לקבוע פגישה</a>
-          </div>
-        </figure>
-      </div>
+        </figure></li>
+        <li><div class="gown-more">
+          <p>בסטודיו יש עוד.</p>
+          <p>הדגמים כאן הם חלק מהקולקציה. בפגישה תראי את כולם.</p>
+          <a class="btn btn-ghost" href="#פגישה">לקבוע פגישה</a>
+        </div></li>
+      </ul>
     </div>
   </section>
 
   <!-- ABOUT -->
   <section class="band">
-    <div class="wrap about">
+    <div class="wrap about-grid">
       <img src="https://static.wixstatic.com/media/86c7d2_254d9a96e910476799df4b60b0d571fd~mv2.jpg/v1/fill/w_760,h_1013,al_c,q_80/file.jpg" alt="שמלת כלה מהסטודיו של שני ששון" loading="lazy" width="760" height="1013">
-      <div class="about__body">
-        <p class="eyebrow">מי עומדת מאחורי השמלה</p>
-        <h2>שני ששון</h2>
+      <div class="about-body">
+        <div>
+          <p class="eyebrow">מי עומדת מאחורי השמלה</p>
+          <h2>שני ששון</h2>
+        </div>
         <p class="lede">דור שלישי למעצבות שמלות כלה. הסטודיו בעין חי תופר שמלות לפי מידה לכלות בישראל, ודרך הסטודיו המקוון גם לכלות בארצות הברית ובאירופה.</p>
-        <p style="color:var(--ink-soft);font-weight:300">כל שמלה שיוצאת מהסטודיו עברה דרך המדידות שלה. זו הסיבה שהפגישה הראשונה היא לא פורמליות — היא הרגע שבו מחליטים יחד מה השמלה הולכת להיות.</p>
-        <p class="sig">שני</p>
+        <p class="pull">כל שמלה שיוצאת מהסטודיו עברה דרך המדידות שלה.</p>
+        <p>זו הסיבה שהפגישה הראשונה היא לא פורמליות — היא הרגע שבו מחליטים יחד מה השמלה הולכת להיות.</p>
       </div>
     </div>
   </section>
 
-  <!-- SOCIAL PROOF PLACEHOLDER -->
-  <section class="band band--surface">
-    <div class="wrap" style="max-width:820px">
-      <div class="todo">
-        <b>להשלמה — המלצות אמיתיות</b>
+  <!-- EDITOR NOTE -->
+  <section class="band band-tint">
+    <div class="wrap">
+      <div class="note-todo">
+        <p>להשלמה — המלצות אמיתיות</p>
         <p>
-          לא המצאתי כאן ציטוטים. זה המקום החזק ביותר בדף מבחינת המרה, וצריך להיכנס בו
-          2–3 משפטים אמיתיים מכלות, עם שם פרטי ושנה. אפשר לקחת מגוגל, מפייסבוק או מהוואטסאפ —
-          תשלח לי אותם ואני אכניס אותם בעיצוב הנכון.
+          לא המצאתי כאן ציטוטים. זה המקום הכי ממיר בדף, וצריכים להיכנס בו
+          2–3 משפטים אמיתיים מכלות, עם שם פרטי ושנה. אפשר לקחת מגוגל, מפייסבוק
+          או מהוואטסאפ — תשלח לי אותם ואכניס אותם בעיצוב הנכון.
         </p>
       </div>
     </div>
@@ -443,7 +459,7 @@ section{scroll-margin-top:84px}
   <!-- FAQ -->
   <section class="band">
     <div class="wrap">
-      <div class="sec-head" style="margin-inline:auto;text-align:center;align-items:center">
+      <div class="band-head" style="margin-inline:auto;text-align:center">
         <p class="eyebrow">לפני שאת מגיעה</p>
         <h2>שאלות שחוזרות</h2>
       </div>
@@ -454,7 +470,7 @@ section{scroll-margin-top:84px}
         </details>
         <details>
           <summary>כמה זמן לפני החתונה כדאי להגיע?</summary>
-          <p><strong>[להשלמה]</strong> — צריך לקבוע את טווח הזמן האמיתי שלך לתפירה. ברוב הסטודיואים לתפירה לפי מידה מדובר על כמה חודשים מראש, אבל אני לא רוצה לכתוב מספר שלא אישרת.</p>
+          <p><strong>[להשלמה]</strong> — צריך לקבוע את טווח הזמן האמיתי שלך לתפירה. לא רציתי לכתוב מספר שלא אישרת.</p>
         </details>
         <details>
           <summary>אפשר לשנות דגם שראיתי באתר?</summary>
@@ -462,24 +478,24 @@ section{scroll-margin-top:84px}
         </details>
         <details>
           <summary>אפשר להביא מלווים?</summary>
-          <p>בהחלט, ומומלץ. רק תעדכני כמה אתן מגיעות כשאנחנו קובעים, כדי שנשריין מספיק זמן ומקום.</p>
+          <p>בהחלט, ומומלץ. רק תעדכני כמה אתן מגיעות כשקובעים, כדי שנשריין מספיק זמן ומקום.</p>
         </details>
         <details>
           <summary>מה לגבי מחירים?</summary>
-          <p><strong>[להשלמה]</strong> — כדאי מאוד לתת טווח מחירים כאן. כלות שלא רואות טווח מתלבטות אם בכלל לפנות, וזו נשירה שקטה של לידים. תשלח לי את הטווח ואכניס אותו.</p>
+          <p><strong>[להשלמה]</strong> — כדאי מאוד לתת טווח מחירים כאן. כלה שלא רואה טווח מתלבטת אם בכלל לפנות, וזו נשירה שקטה של לידים.</p>
         </details>
       </div>
     </div>
   </section>
 
   <!-- CTA -->
-  <section class="band band--ink" id="פגישה">
+  <section class="band band-cta" id="פגישה">
     <div class="wrap cta-grid">
-      <div class="sec-head" style="margin:0">
+      <div>
         <p class="eyebrow">קביעת פגישה</p>
-        <h2 style="color:#F2F3EE">בואי למדוד.</h2>
+        <h2>בואי למדוד.</h2>
         <p class="lede">השאירי פרטים ונחזור אלייך לתאם, או פשוט שלחי הודעה בוואטסאפ — זה הכי מהיר.</p>
-        <ul class="contact-list" style="margin-top:14px">
+        <ul class="contact">
           <li>
             <span class="c-k">טלפון</span>
             <a href="tel:+972525557106" dir="ltr">052-555-7106</a>
@@ -512,34 +528,56 @@ section{scroll-margin-top:84px}
           <label for="f-note">משהו שכדאי שנדע?</label>
           <textarea id="f-note" name="note" rows="2"></textarea>
         </div>
-        <button class="btn btn--primary" type="submit">
+        <button class="btn" type="submit">
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.5 14.4c-.3-.2-1.7-.9-2-1-.3-.1-.5-.1-.7.1-.2.3-.7 1-.9 1.2-.2.2-.3.2-.6.1-.3-.2-1.2-.5-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6l.5-.5c.1-.2.2-.3.3-.5 0-.2 0-.4 0-.5 0-.2-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.4s1.1 2.8 1.2 3c.2.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.7-.7 2-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.6-.3M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2m0 18.2c-1.6 0-3.2-.5-4.6-1.3l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2"/></svg>
           שליחה בוואטסאפ
         </button>
-        <p class="form__note" id="form-msg">הכפתור פותח וואטסאפ עם הפרטים שמילאת, מוכנים לשליחה.</p>
+        <p class="form-note" id="form-msg">הכפתור פותח וואטסאפ עם הפרטים שמילאת, מוכנים לשליחה.</p>
       </form>
     </div>
   </section>
 </main>
 
-<footer class="site-foot">
-  <div class="wrap site-foot__in">
-    <span>שני ששון · שמלות כלה בוהו שיק · עין חי 7, הוד השרון</span>
-    <span><a href="https://www.instagram.com/lace_and_love_brides/" target="_blank" rel="noopener">Instagram</a> · <a href="tel:+972525557106" dir="ltr">052-555-7106</a></span>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <p class="footer-brand">שני ששון</p>
+        <p>שמלות כלה בוהו שיק, נתפרות לפי מידה בסטודיו בהוד השרון.</p>
+      </div>
+      <div>
+        <p class="footer-head">הסטודיו</p>
+        <ul>
+          <li><a href="https://www.google.com/maps/search/?api=1&amp;query=%D7%A2%D7%99%D7%9F+%D7%97%D7%99+7+%D7%94%D7%95%D7%93+%D7%94%D7%A9%D7%A8%D7%95%D7%9F" target="_blank" rel="noopener">עין חי 7, הוד השרון</a></li>
+          <li><a href="tel:+972525557106" dir="ltr">052-555-7106</a></li>
+          <li><a href="mailto:shanysasson@gmail.com" dir="ltr">shanysasson@gmail.com</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer-head">עוד</p>
+        <ul>
+          <li><a href="https://www.instagram.com/lace_and_love_brides/" target="_blank" rel="noopener">Instagram</a></li>
+          <li><a href="https://www.shanysasson.com/" target="_blank" rel="noopener">האתר המלא</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>שני ששון · שמלות כלה בוהו שיק</p>
+    </div>
   </div>
 </footer>
 
 <div class="mobar">
-  <a class="btn btn--primary" href="https://wa.me/972525557106?text=%D7%94%D7%99%D7%99%20%D7%A9%D7%A0%D7%99%2C%20%D7%90%D7%A9%D7%9E%D7%97%20%D7%9C%D7%A7%D7%91%D7%95%D7%A2%20%D7%A4%D7%92%D7%99%D7%A9%D7%AA%20%D7%9E%D7%93%D7%99%D7%93%D7%94" target="_blank" rel="noopener">וואטסאפ</a>
-  <a class="btn btn--ghost" href="tel:+972525557106">חיוג</a>
+  <a class="btn" href="https://wa.me/972525557106?text=%D7%94%D7%99%D7%99%20%D7%A9%D7%A0%D7%99%2C%20%D7%90%D7%A9%D7%9E%D7%97%20%D7%9C%D7%A7%D7%91%D7%95%D7%A2%20%D7%A4%D7%92%D7%99%D7%A9%D7%AA%20%D7%9E%D7%93%D7%99%D7%93%D7%94" target="_blank" rel="noopener">וואטסאפ</a>
+  <a class="btn btn-ghost" href="tel:+972525557106">חיוג</a>
 </div>
 
 <script>
 (function(){
   var WA = "972525557106";
-  var form = document.getElementById("lead-form");
-  var msgEl = document.getElementById("form-msg");
-  if(!form) return;
+  var form   = document.getElementById("lead-form");
+  var msgEl  = document.getElementById("form-msg");
+  if(!form || !msgEl) return;
 
   var elName  = document.getElementById("f-name");
   var elPhone = document.getElementById("f-phone");
