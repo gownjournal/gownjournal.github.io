@@ -51,7 +51,7 @@ body{
   line-height:1.7;
   -webkit-font-smoothing:antialiased;
 }
-img{max-width:100%;display:block}
+img{max-width:100%;height:auto;display:block}
 a{color:var(--c1)}
 :focus-visible{outline:2px solid var(--c2);outline-offset:3px;border-radius:var(--r-card)}
 .wrap{max-width:var(--wrap);margin:0 auto;padding:0 1.5rem}
@@ -102,12 +102,12 @@ hr.rule{border:0;border-top:1px solid var(--c5);margin:0}
 
 /* ---------- hero ---------- */
 .hero{padding:3.5rem 0 3rem}
-.hero-grid{display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:center}
-.hero h1{max-width:13ch}
+.hero-grid{display:grid;grid-template-columns:1.08fr .92fr;gap:3rem;align-items:center}
+.hero h1{max-width:18ch;text-wrap:pretty}
 .hero h1 em{font-style:italic;color:var(--c2)}
 .hero .lede{margin-top:1rem}
 .hero-figure{position:relative}
-.hero-figure img{width:100%;aspect-ratio:2/3;object-fit:cover;border-radius:var(--r-media);background:var(--c9)}
+.hero-figure img{width:100%;height:auto;max-height:34rem;aspect-ratio:2/3;object-fit:cover;border-radius:var(--r-media);background:var(--c9)}
 .hero-figure figcaption{
   position:absolute;inset-inline-start:1rem;bottom:1rem;max-width:80%;
   background:#fff;border-radius:var(--r-card);padding:.7rem 1rem;
@@ -156,7 +156,7 @@ hr.rule{border:0;border-top:1px solid var(--c5);margin:0}
 /* ---------- gallery ---------- */
 .gowns{list-style:none;margin:0;padding:0;display:grid;gap:1.25rem;grid-template-columns:repeat(auto-fill,minmax(13.5rem,1fr))}
 .gown{display:flex;flex-direction:column;gap:.55rem}
-.gown img{width:100%;aspect-ratio:2/3;object-fit:cover;border-radius:var(--r-media);background:var(--c9)}
+.gown img{width:100%;height:auto;aspect-ratio:2/3;object-fit:cover;border-radius:var(--r-media);background:var(--c9)}
 .gown figcaption{font-size:15px;line-height:1.5}
 .gown-more{
   display:flex;flex-direction:column;justify-content:center;align-items:center;gap:.8rem;
@@ -168,7 +168,7 @@ hr.rule{border:0;border-top:1px solid var(--c5);margin:0}
 
 /* ---------- about ---------- */
 .about-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:2.75rem;align-items:center}
-.about-grid img{width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:var(--r-media)}
+.about-grid img{width:100%;height:auto;max-height:30rem;aspect-ratio:3/4;object-fit:cover;border-radius:var(--r-media)}
 .about-body{display:flex;flex-direction:column;gap:1rem}
 .pull{
   margin:.3rem 0;padding:.1rem 1.3rem;border-inline-start:2px solid var(--c2);
@@ -240,7 +240,7 @@ hr.rule{border:0;border-top:1px solid var(--c5);margin:0}
 @media (max-width:900px){
   .hero-grid,.fit-grid,.about-grid,.cta-grid{grid-template-columns:1fr;gap:2rem}
   .hero-figure{order:-1}
-  .hero-figure img{aspect-ratio:4/5}
+  .hero-figure img{aspect-ratio:4/5;max-height:26rem}
   .about-grid img{aspect-ratio:16/10}
   .hero h1{max-width:none}
 }
@@ -284,11 +284,11 @@ hr.rule{border:0;border-top:1px solid var(--c5);margin:0}
     <div class="wrap hero-grid">
       <div>
         <p class="eyebrow">סטודיו בעין חי 7, הוד השרון</p>
-        <h1>השמלה נתפרת <em>עלייך</em>. לא להפך.</h1>
+        <h1>השמלה נתפרת <em>עלייך</em><br>לא להפך.</h1>
         <p class="lede">
           כל שמלה בסטודיו נתפרת למידות שלך — גובה הגב והמחשוף, הבטנה, החגורה והאורך
-          נקבעים לפי מבנה הגוף שלך ולפי הדגם שבחרת. בלי מדף, בלי לנסות להיכנס למשהו
-          שנתפר עבור מישהי אחרת.
+          נקבעים לפי מבנה הגוף שלך ולפי הדגם שבחרת. לא שמלה מהמדף, ולא ניסיון להתאים
+          את עצמך למשהו שנתפר למישהי אחרת.
         </p>
         <div class="btn-row">
           <a class="btn" href="https://wa.me/972525557106?text=%D7%94%D7%99%D7%99%20%D7%A9%D7%A0%D7%99%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%9E%D7%94%D7%90%D7%AA%D7%A8%20%D7%95%D7%90%D7%A9%D7%9E%D7%97%20%D7%9C%D7%A7%D7%91%D7%95%D7%A2%20%D7%A4%D7%92%D7%99%D7%A9%D7%AA%20%D7%9E%D7%93%D7%99%D7%93%D7%94" target="_blank" rel="noopener">
@@ -321,7 +321,7 @@ hr.rule{border:0;border-top:1px solid var(--c5);margin:0}
         <article class="pillar">
           <span class="pillar-badge">המידות שלך</span>
           <h3>לא מידה 38</h3>
-          <p>מודדים ותופרים לפי הגוף שלך. גובה המחשוף, עומק הגב, קו החגורה והאורך נקבעים במדידה — לא בטבלת מידות.</p>
+          <p>אנחנו מודדים ותופרים לפי הגוף שלך. גובה המחשוף, עומק הגב, קו החגורה והאורך נקבעים במדידה — לא בטבלת מידות.</p>
         </article>
         <article class="pillar">
           <span class="pillar-badge">התמחות</span>
@@ -331,7 +331,7 @@ hr.rule{border:0;border-top:1px solid var(--c5);margin:0}
         <article class="pillar">
           <span class="pillar-badge">אישי</span>
           <h3>שני מודדת אותך</h3>
-          <p>את פוגשת את שני עצמה. אותה אישה שמעצבת את הדגם עומדת מולך במדידה ויודעת בדיוק מה אפשר לשנות בו.</p>
+          <p>את פוגשת את שני עצמה. אותה אישה שמעצבת את הדגם היא זו שעומדת מולך במדידה, ויודעת בדיוק מה אפשר לשנות בו.</p>
         </article>
       </div>
     </div>
@@ -343,7 +343,7 @@ hr.rule{border:0;border-top:1px solid var(--c5);margin:0}
       <div class="band-head">
         <p class="eyebrow">מה קורה בפגישה</p>
         <h2>שעה בסטודיו, בלי התחייבות</h2>
-        <p class="lede">הפגישה הראשונה היא היכרות ומדידה. את מודדת דגמים, לוקחים מידות, ומסבירים בדיוק מה ניתן לשנות בכל דגם. אין מכירה בלחץ ואין תשלום על הפגישה.</p>
+        <p class="lede">הפגישה הראשונה היא היכרות ומדידה. את מודדת שמלות, אנחנו לוקחים מידות ומסבירים בדיוק מה ניתן לשנות בכל דגם. בלי לחץ למכור, ובלי תשלום על הפגישה.</p>
       </div>
       <div class="fit-grid">
         <div class="card">
@@ -361,28 +361,28 @@ hr.rule{border:0;border-top:1px solid var(--c5);margin:0}
             <li><span class="m-name">אורך מהמותן לרצפה</span><span class="m-lead"></span><span class="m-unit">ס״מ</span></li>
             <li><span class="m-name">גובה עם הנעל</span><span class="m-lead"></span><span class="m-unit">ס״מ</span></li>
           </ul>
-          <p class="card-foot">אלה המידות שנלקחות בפגישה הראשונה. לפיהן נקבע מה משתנה בדגם — בבטנה, בחגורה, באורך ובמחשוף.</p>
+          <p class="card-foot">אלה המידות שאנחנו לוקחים בפגישה הראשונה. לפיהן נקבע מה משתנה בדגם — בבטנה, בחגורה, באורך ובמחשוף.</p>
         </div>
         <ol class="stages">
           <li>
             <span class="stage-n">01</span>
             <div>
               <h3>מדידה ראשונה</h3>
-              <p>מודדים דגמים מהסטודיו, מבינים איזו גזרה עובדת על הגוף שלך, ולוקחים את המידות המלאות. יוצאים עם תמונה ברורה של השמלה ושל המחיר.</p>
+              <p>את מודדת דגמים מהסטודיו, אנחנו מבינים יחד איזו גזרה עובדת על הגוף שלך, ולוקחים את המידות המלאות. את יוצאת עם תמונה ברורה של השמלה ושל המחיר.</p>
             </div>
           </li>
           <li>
             <span class="stage-n">02</span>
             <div>
               <h3>מדידת התאמה</h3>
-              <p>השמלה כבר תפורה על המידות שלך. כאן מדייקים — קו החזה, החגורה, האורך והגב. זה השלב שבו השמלה מתחילה להרגיש שלך.</p>
+              <p>השמלה כבר תפורה על המידות שלך. כאן אנחנו מדייקים — קו החזה, החגורה, האורך והגב. זה השלב שבו השמלה מתחילה להרגיש שלך.</p>
             </div>
           </li>
           <li>
             <span class="stage-n">03</span>
             <div>
               <h3>מדידה אחרונה</h3>
-              <p>התאמות אחרונות עם הנעליים שתנעלי ביום עצמו, סגירת השובל והאביזרים. יוצאת עם השמלה מוכנה.</p>
+              <p>התאמות אחרונות עם הנעליים שתנעלי ביום עצמו, סגירת השובל והאביזרים. את יוצאת עם השמלה מוכנה.</p>
             </div>
           </li>
         </ol>
@@ -445,9 +445,9 @@ hr.rule{border:0;border-top:1px solid var(--c5);margin:0}
           <p class="eyebrow">מי עומדת מאחורי השמלה</p>
           <h2>שני ששון</h2>
         </div>
-        <p class="lede">דור שלישי למעצבות שמלות כלה. הסטודיו בעין חי תופר שמלות לפי מידה לכלות בישראל, ודרך הסטודיו המקוון גם לכלות בארצות הברית ובאירופה.</p>
+        <p class="lede">דור שלישי במשפחה של מעצבות שמלות כלה. הסטודיו בעין חי תופר שמלות לפי מידה לכלות בישראל, ודרך הסטודיו המקוון גם לכלות בארצות הברית ובאירופה.</p>
         <p class="pull">כל שמלה שיוצאת מהסטודיו עברה דרך המדידות שלה.</p>
-        <p>זו הסיבה שהפגישה הראשונה היא לא פורמליות — היא הרגע שבו מחליטים יחד מה השמלה הולכת להיות.</p>
+        <p>זו הסיבה שהפגישה הראשונה אינה עניין טכני — היא הרגע שבו מחליטים יחד מה השמלה הולכת להיות.</p>
       </div>
     </div>
   </section>
@@ -475,8 +475,8 @@ hr.rule{border:0;border-top:1px solid var(--c5);margin:0}
       </div>
       <div class="faq">
         <details open>
-          <summary>הפגישה עולה משהו?</summary>
-          <p>לא. הפגישה הראשונה היא ללא תשלום וללא התחייבות — מודדים, מדברים, ומחליטים אחר כך.</p>
+          <summary>יש עלות לפגישה?</summary>
+          <p>אין. הפגישה הראשונה ללא תשלום וללא התחייבות — מודדות, מדברות, ומחליטות אחר כך.</p>
         </details>
         <details>
           <summary>כמה זמן לפני החתונה כדאי להגיע?</summary>
@@ -484,11 +484,11 @@ hr.rule{border:0;border-top:1px solid var(--c5);margin:0}
         </details>
         <details>
           <summary>אפשר לשנות דגם שראיתי באתר?</summary>
-          <p>כן. כל דגם ניתן להתאמה — גובה הגב והמחשוף, הבטנה, החגורה והאורך משתנים בהתאם למבנה הדגם ולמה שנוח לך. במדידה נעבור על מה אפשר ומה פחות.</p>
+          <p>כן. כל דגם ניתן להתאמה — גובה הגב והמחשוף, הבטנה, החגורה והאורך משתנים בהתאם למבנה הדגם ולמה שנוח לך. במדידה נעבור יחד על מה אפשר לשנות ומה פחות.</p>
         </details>
         <details>
           <summary>אפשר להביא מלווים?</summary>
-          <p>בהחלט, ומומלץ. רק תעדכני כמה אתן מגיעות כשקובעים, כדי שנשריין מספיק זמן ומקום.</p>
+          <p>בהחלט, ומומלץ. רק עדכני כמה אתן מגיעות כשנקבע, כדי שנשריין מספיק זמן ומקום.</p>
         </details>
         <details>
           <summary>מה לגבי מחירים?</summary>
