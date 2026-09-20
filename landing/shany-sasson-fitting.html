@@ -52,6 +52,8 @@ body{
   -webkit-font-smoothing:antialiased;
 }
 img{max-width:100%;height:auto;display:block}
+figure{margin:0}
+blockquote{margin:0}
 a{color:var(--c1)}
 :focus-visible{outline:2px solid var(--c2);outline-offset:3px;border-radius:var(--r-card)}
 .wrap{max-width:var(--wrap);margin:0 auto;padding:0 1.5rem}
@@ -266,6 +268,12 @@ hr.rule{border:0;border-top:1px solid var(--c5);margin:0}
   .stages li{grid-template-columns:1fr;gap:.35rem}
   .stage-n{border:0;padding:0;width:auto;text-align:start}
   .card{padding:1.5rem 1.35rem}
+  /* two up on a phone: seven gowns stacked single-file buried the CTA */
+  .gowns{grid-template-columns:repeat(2,1fr);gap:.75rem}
+  .gown figcaption{font-size:14px}
+  .gown-more{padding:1rem}
+  .gown-more .t{font-size:20px}
+  .gown-more p{font-size:13px}
 }
 @media (prefers-reduced-motion:reduce){
   html{scroll-behavior:auto}
@@ -501,7 +509,7 @@ hr.rule{border:0;border-top:1px solid var(--c5);margin:0}
         </details>
         <details>
           <summary>כמה זמן לפני החתונה כדאי להגיע?</summary>
-          <p><strong>[להשלמה]</strong> — צריך לקבוע את טווח הזמן האמיתי שלך לתפירה. לא רציתי לכתוב מספר שלא אישרת.</p>
+          <p>מוקדם ככל שאפשר — תפירה לפי מידה כוללת כמה מדידות, והלוח מתמלא. אם יש לך כבר תאריך, שלחי אותו בוואטסאפ ונגיד לך מיד אם הוא ריאלי.</p>
         </details>
         <details>
           <summary>אפשר לשנות דגם שראיתי באתר?</summary>
@@ -510,10 +518,6 @@ hr.rule{border:0;border-top:1px solid var(--c5);margin:0}
         <details>
           <summary>אפשר להביא מלווים?</summary>
           <p>בהחלט, ומומלץ. רק עדכני כמה אתן מגיעות כשנקבע, כדי שנשריין מספיק זמן ומקום.</p>
-        </details>
-        <details>
-          <summary>מה לגבי מחירים?</summary>
-          <p><strong>[להשלמה]</strong> — כדאי מאוד לתת טווח מחירים כאן. כלה שלא רואה טווח מתלבטת אם בכלל לפנות, וזו נשירה שקטה של לידים.</p>
         </details>
       </div>
     </div>
