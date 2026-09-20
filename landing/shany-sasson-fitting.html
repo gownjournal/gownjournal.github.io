@@ -175,6 +175,14 @@ hr.rule{border:0;border-top:1px solid var(--c5);margin:0}
   font-family:var(--heading);font-size:26px;line-height:1.35;color:var(--c1);
 }
 
+/* ---------- quotes ---------- */
+.quotes{list-style:none;margin:0;padding:0;display:grid;gap:2.25rem;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr))}
+.quote{display:flex;flex-direction:column;gap:.85rem}
+.stars{margin:0;color:var(--c2);font-size:14px;letter-spacing:.2em;line-height:1}
+.quote blockquote{margin:0;font-family:var(--heading);font-size:21px;line-height:1.5;color:var(--c1)}
+.cite{margin-top:auto;padding-top:.9rem;border-top:1px solid var(--c5);font-size:14px;font-weight:500;color:var(--fg)}
+.cite span{font-weight:400;color:var(--c2)}
+
 /* ---------- editor note ---------- */
 .note-todo{background:#fff;border:1px dashed var(--c2);border-radius:var(--r-card);padding:1.4rem 1.6rem;max-width:var(--measure);margin-inline:auto}
 .note-todo .t{font-size:14px;font-weight:500;color:var(--c2);margin-bottom:.35rem}
@@ -452,17 +460,30 @@ hr.rule{border:0;border-top:1px solid var(--c5);margin:0}
     </div>
   </section>
 
-  <!-- EDITOR NOTE -->
-  <section class="band band-grey">
+  <!-- REVIEWS — verbatim from the studio's Google reviews -->
+  <section class="band band-grey" id="המלצות">
     <div class="wrap">
-      <div class="note-todo">
-        <p class="t">להשלמה — המלצות אמיתיות</p>
-        <p>
-          לא המצאתי כאן ציטוטים. זה המקום הכי ממיר בדף, וצריכים להיכנס בו
-          2–3 משפטים אמיתיים מכלות, עם שם פרטי ושנה. יש לך ביקורות Judge.me
-          בחנות האנגלית — אפשר לקחת משם, או מגוגל ומהוואטסאפ.
-        </p>
+      <div class="band-head">
+        <p class="eyebrow">מה כלות כותבות</p>
+        <h2>ביקורות מ-Google</h2>
       </div>
+      <ul class="quotes">
+        <li class="quote">
+          <p class="stars" aria-label="חמישה כוכבים מתוך חמישה">★★★★★</p>
+          <blockquote>ממש נוח שאפשר להתבסס על דגם ששני עיצבה ולהתאים אותו בדיוק אלייך בתפירה הייחודית שלה. לכל מי שמתחברת לסגנון הבוהו-שיק, תחרה ולמראה הרומנטי — אמליץ בחום.</blockquote>
+          <p class="cite">ליאור דגן <span>· 2026</span></p>
+        </li>
+        <li class="quote">
+          <p class="stars" aria-label="חמישה כוכבים מתוך חמישה">★★★★★</p>
+          <blockquote>מהרגע הראשון שנכנסתי לסטודיו הרגשתי בידיים הכי טובות שיש. שני קשובה, סבלנית, יצירתית, מקצועית ומשרה המון רוגע בתקופה הלחוצה הזו.</blockquote>
+          <p class="cite">אביה פלד <span>· 2026</span></p>
+        </li>
+        <li class="quote">
+          <p class="stars" aria-label="חמישה כוכבים מתוך חמישה">★★★★★</p>
+          <blockquote>שני הייתה נעימה וסבלנית כבר מהפעם הראשונה שנכנסנו לסטודיו שלה. בכל מדידה היא הייתה מדייקת, מקצועית ונעימה, והתוצאה הייתה מהממת — שמלה מותאמת ומעוצבת במיוחד בשבילי.</blockquote>
+          <p class="cite">עדי <span>· 2019</span></p>
+        </li>
+      </ul>
     </div>
   </section>
 
