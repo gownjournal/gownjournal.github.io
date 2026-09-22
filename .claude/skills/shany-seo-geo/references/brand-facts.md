@@ -18,6 +18,7 @@ propagation checklist at the bottom.
 | Email | shanysasson@gmail.com |
 | Currency / TZ | ILS · Asia/Jerusalem |
 | Serves | Israel, United States, Europe |
+| Logo | `https://cdn.shopify.com/s/files/1/0749/3658/2189/files/logo_Shany_Sasson_transpert_2.png?v=1776603856` (transparent PNG, square; append `&width=160` for a header, use as `logo` in LocalBusiness) |
 
 Write the phone as `+972-52-555-7106` in schema and `tel:` links, and as
 `052-555-7106` in visible Hebrew copy. Wrap it in `dir="ltr"` inside RTL text or

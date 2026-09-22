@@ -174,7 +174,7 @@ def page(title, desc, blocks, extra_ld):
 <header class="site-header">
   <div class="wrap header-inner">
     <a class="brand" href="#top">
-      <img class="brand-logo" src="https://cdn.shopify.com/s/files/1/0749/3658/2189/files/logo_Shany_Sasson_transpert_2.png?v=1776603856&amp;width=120" alt="" width="40" height="40">
+      <img class="brand-logo" src="https://cdn.shopify.com/s/files/1/0749/3658/2189/files/logo_Shany_Sasson_transpert_2.png?v=1776603856&amp;width=160" alt="" width="52" height="52">
       <span class="brand-text">
         <span class="brand-name">שני ששון</span>
         <span class="brand-sub">שמלות כלה · בוהו שיק</span>
