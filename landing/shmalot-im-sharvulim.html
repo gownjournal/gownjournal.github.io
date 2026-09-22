@@ -36,6 +36,7 @@
   "alternateName": "Lace & Love by Shany Sasson",
   "url": "https://www.shanysasson.com/",
   "image": "https://static.wixstatic.com/media/86c7d2_e659073414514023ac52e7cb4346bd0b~mv2.jpg/v1/fill/w_1200,h_630,al_t,q_85/file.jpg",
+  "logo": "https://cdn.shopify.com/s/files/1/0749/3658/2189/files/logo_Shany_Sasson_transpert_2.png?v=1776603856",
   "telephone": "+972-52-555-7106",
   "email": "shanysasson@gmail.com",
   "inLanguage": "he-IL",
@@ -188,7 +189,9 @@ hr.rule{border:0;border-top:1px solid var(--c5);margin:0}
   border-bottom:1px solid var(--c5);
 }
 .header-inner{display:flex;align-items:center;justify-content:space-between;gap:1.5rem;padding-block:.9rem}
-.brand{display:inline-flex;flex-direction:column;gap:.1rem;text-decoration:none}
+.brand{display:inline-flex;align-items:center;gap:.75rem;text-decoration:none}
+.brand-logo{width:40px;height:40px;object-fit:contain;flex:none}
+.brand-text{display:flex;flex-direction:column;gap:.1rem}
 .brand-name{font-family:var(--heading);font-weight:600;font-size:26px;line-height:1;color:var(--c1)}
 .brand-sub{font-family:var(--body);font-weight:500;font-size:12px;letter-spacing:.06em;color:var(--c2)}
 
@@ -371,6 +374,7 @@ hr.rule{border:0;border-top:1px solid var(--c5);margin:0}
   .hero{padding-top:2.25rem}
   .footer-grid{grid-template-columns:1fr}
   .header-inner .btn{display:none}
+  .brand-logo{width:34px;height:34px}
   .mobar{display:flex}
   body{padding-bottom:4.6rem}
   h3{font-size:24px}
@@ -396,8 +400,11 @@ hr.rule{border:0;border-top:1px solid var(--c5);margin:0}
 <header class="site-header">
   <div class="wrap header-inner">
     <a class="brand" href="#top">
-      <span class="brand-name">שני ששון</span>
-      <span class="brand-sub">שמלות כלה · בוהו שיק</span>
+      <img class="brand-logo" src="https://cdn.shopify.com/s/files/1/0749/3658/2189/files/logo_Shany_Sasson_transpert_2.png?v=1776603856&amp;width=120" alt="" width="40" height="40">
+      <span class="brand-text">
+        <span class="brand-name">שני ששון</span>
+        <span class="brand-sub">שמלות כלה · בוהו שיק</span>
+      </span>
     </a>
     <a class="btn" href="#פגישה">קביעת פגישה</a>
   </div>

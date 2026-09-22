@@ -101,7 +101,7 @@ const d = await page.evaluate(() => {
     robots: document.querySelector('meta[name="robots"]')?.content || '',
     h1: [...document.querySelectorAll('h1')].map(txt),
     headings: [...document.querySelectorAll('h1,h2,h3,h4,h5,h6')].map(h => +h.tagName[1]),
-    imgsNoAlt: [...document.images].filter(i => !i.getAttribute('alt')).length,
+    imgsNoAlt: [...document.images].filter(i => !i.hasAttribute('alt')).length,  // alt="" is a deliberate decorative marking, not a missing one
     imgCount: document.images.length,
     collapsed: [...document.images].filter(i => { const r = i.getBoundingClientRect(); return r.width < 40 || r.height < 40; }).length,
     ld, faqOnPage,

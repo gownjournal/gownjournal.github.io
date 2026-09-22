@@ -19,6 +19,7 @@ WA_SVG = re.search(r'<svg viewBox="0 0 24 24" aria-hidden="true">.*?</svg>', SRC
 WA, TEL = "972525557106", "+972525557106"
 HERO = ('https://static.wixstatic.com/media/86c7d2_e659073414514023ac52e7cb4346bd0b~mv2.jpg'
         '/v1/fill/w_1200,h_630,al_t,q_85/file.jpg')
+LOGO = 'https://cdn.shopify.com/s/files/1/0749/3658/2189/files/logo_Shany_Sasson_transpert_2.png?v=1776603856'
 MAPQ = ('https://www.google.com/maps/search/?api=1&amp;query='
         '%D7%A2%D7%99%D7%9F+%D7%97%D7%99+7+%D7%94%D7%95%D7%93+%D7%94%D7%A9%D7%A8%D7%95%D7%9F')
 
@@ -32,7 +33,7 @@ G = {'vintage':'47da3cd9a54d4bde82c5e549edd25323','heart':'b35c5c25433945cda57d5
 
 BIZ = {"@context":"https://schema.org","@type":["LocalBusiness","ClothingStore"],
  "@id":"https://www.shanysasson.com/#studio","name":"שני ששון שמלות כלה",
- "alternateName":"Lace & Love by Shany Sasson","url":"https://www.shanysasson.com/","image":HERO,
+ "alternateName":"Lace & Love by Shany Sasson","url":"https://www.shanysasson.com/","image":HERO,"logo":LOGO,
  "telephone":"+972-52-555-7106","email":"shanysasson@gmail.com","inLanguage":"he-IL",
  "address":{"@type":"PostalAddress","streetAddress":"עין חי 7","addressLocality":"הוד השרון","addressCountry":"IL"},
  "founder":{"@type":"Person","name":"שני ששון","jobTitle":"מעצבת שמלות כלה"},
@@ -173,8 +174,11 @@ def page(title, desc, blocks, extra_ld):
 <header class="site-header">
   <div class="wrap header-inner">
     <a class="brand" href="#top">
-      <span class="brand-name">שני ששון</span>
-      <span class="brand-sub">שמלות כלה · בוהו שיק</span>
+      <img class="brand-logo" src="https://cdn.shopify.com/s/files/1/0749/3658/2189/files/logo_Shany_Sasson_transpert_2.png?v=1776603856&amp;width=120" alt="" width="40" height="40">
+      <span class="brand-text">
+        <span class="brand-name">שני ששון</span>
+        <span class="brand-sub">שמלות כלה · בוהו שיק</span>
+      </span>
     </a>
     <a class="btn" href="#פגישה">קביעת פגישה</a>
   </div>
