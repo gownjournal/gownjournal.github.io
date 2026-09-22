@@ -2,5 +2,10 @@ node_modules/
 _site/
 .DS_Store
 outreach-kit.zip
-.claude/
+.claude/*
 *.zip
+
+# Local Claude Code settings stay out, but shared skills belong in the repo:
+# a skill is the team's working knowledge, not one machine's configuration.
+!.claude/skills/
+!.claude/skills/**
