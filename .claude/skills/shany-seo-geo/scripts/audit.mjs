@@ -10,7 +10,24 @@
  * the failures that actually ship — overflow, a collapsed image box, schema
  * that drifted from the copy — only exist once CSS has been applied.
  */
-import { chromium } from 'playwright';
+// A missing dependency should explain itself rather than throw a stack trace at
+// someone who just wanted to check a page.
+let chromium;
+try {
+  ({ chromium } = await import('playwright'));
+} catch {
+  console.error(`
+  This audit renders the page in a real browser, so it needs Playwright.
+
+      npm install                 # playwright is in this repo's devDependencies
+      npx playwright install chromium   # only if no browser is present
+
+  If Chromium already exists somewhere, point at it instead:
+
+      CHROMIUM_PATH=/path/to/chrome node <this script> page.html
+`);
+  process.exit(2);
+}
 import { existsSync } from 'node:fs';
 import { resolve } from 'node:path';
 

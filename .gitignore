@@ -9,3 +9,5 @@ outreach-kit.zip
 # a skill is the team's working knowledge, not one machine's configuration.
 !.claude/skills/
 !.claude/skills/**
+!.claude/agents/
+!.claude/agents/**
