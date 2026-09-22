@@ -14,6 +14,11 @@ factual claim — the address, the phone, which reviews may be quoted — comes
 from there and nowhere else. Do not carry facts over from memory or from
 another page; read them.
 
+If the request names a topic rather than an exact search term, check what is
+worth building first — `bridal-competitor-intel` holds the target terms and a
+coverage script that reports which already have a page. A page for a term
+nobody searches is effort spent on nothing.
+
 Then look at the existing pages in `landing/`. They are the house style, and a
 new page that does not look like a sibling of them is a bug, not a variation.
 

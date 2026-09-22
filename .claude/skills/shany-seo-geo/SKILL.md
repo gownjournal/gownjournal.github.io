@@ -63,6 +63,14 @@ Three things make a passage quotable by a model, and they cost nothing:
 - **Name the entity explicitly.** "הסטודיו של שני ששון בהוד השרון" is
   resolvable. "אנחנו" is not.
 
+## Which page to build next
+
+Which terms are worth a page, and which are already taken, is a separate
+question with its own skill: `bridal-competitor-intel`. Consult it before
+building a new page rather than guessing at a term, and leave the competitive
+picture there rather than copying findings into this file — two records of the
+same thing drift apart.
+
 ## Local search
 
 Local ranking weight sits mostly outside any page: the Google Business Profile
