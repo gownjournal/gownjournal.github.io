@@ -28,9 +28,10 @@ domains is blocked here.
 **Acted on.** Built `landing/hod-hasharon.html` for the city term and
 `landing/shmalot-im-sharvulim.html` for a catalogue segment.
 
-**Still open.** The international shipping page — the highest-potential term in
-the set — needs facts from the owner: how remote measuring works, which
-countries, what timeline. Not built rather than built on guesses.
+**Decided.** The international shipping page — the highest-potential term in
+the set — will not be built; the owner declined it. Recorded in
+target-terms.md under "deliberately not targeted" so it is a known choice, not
+a gap.
 
 **Watch next time.** Whether Clair refreshes its titles to 2027; whether anyone
 claims הוד השרון; whether any competitor starts advertising shipping abroad.
