@@ -231,7 +231,7 @@ P1_FAQ = [
  ("כמה זמן נמשכת הפגישה?",
   "כשעה. מספיק זמן כדי למדוד כמה דגמים, לקחת מידות ולדבר, בלי להרגיש שממהרים אותך."),
  ("אפשר להביא מלווים?",
-  "בהחלט, ומומלץ. רק עדכני כמה אתן מגיעות כשנקבע, כדי שנשריין מספיק זמן ומקום."),
+  "בהחלט, ומומלץ. רק עדכני כמה אנשים מגיעים איתך כשנקבע, כדי שנשריין מספיק זמן ומקום."),
 ]
 
 P1 = page(
@@ -244,7 +244,7 @@ P1 = page(
         <h1>סטודיו שמלות כלה <em>בהוד השרון</em></h1>
         <p class="lede">
           הסטודיו של שני ששון נמצא בעין חי 7. כל שמלה שיוצאת ממנו מעוצבת ונתפרת כאן,
-          לפי המידות שלך ולפי הוויב שלך. אפשר להגיע, למדוד ולהחליט אחר כך.
+          לפי המידות שלך ולפי הווייב שלך. אפשר להגיע, למדוד ולהחליט אחר כך.
         </p>
         <div class="btn-row">
           <a class="btn" href="https://wa.me/{WA}?text=%D7%94%D7%99%D7%99%20%D7%A9%D7%A0%D7%99%2C%20%D7%90%D7%A9%D7%9E%D7%97%20%D7%9C%D7%A7%D7%91%D7%95%D7%A2%20%D7%A4%D7%92%D7%99%D7%A9%D7%94%20%D7%91%D7%A1%D7%98%D7%95%D7%93%D7%99%D7%95" target="_blank" rel="noopener">{WA_SVG}לקבוע פגישה בוואטסאפ</a>
@@ -277,7 +277,7 @@ P1 = page(
         <article class="pillar">
           <span class="pillar-badge">כתובת</span>
           <h3>עין חי 7, הוד השרון</h3>
-          <p>הסטודיו עבר לעין חי 7. אם ראית כתובת אחרת באחד ממאגרי האינטרנט, זו הישנה.</p>
+          <p>הסטודיו עבר לעין חי 7. אם ראית כתובת אחרת באינטרנט, זו הכתובת הישנה.</p>
           <p><a href="{MAPQ}" target="_blank" rel="noopener">לפתוח ניווט</a></p>
         </article>
         <article class="pillar">
@@ -312,7 +312,7 @@ P1 = page(
         </div></li>
         <li><span class="stage-n">03</span><div>
           <h3>מדידה אחרונה</h3>
-          <p>התאמות אחרונות עם הנעליים שתנעלי ביום החתונה, וסגירת השובל והאביזרים.</p>
+          <p>התאמות אחרונות עם הנעליים שתנעלי ביום החתונה, סגירת השובל והאביזרים.</p>
         </div></li>
       </ol>
     </div>
@@ -326,7 +326,7 @@ P1 = page(
         <p class="lede">כל דגם ניתן להתאמה: מחשוף, גב, שרוול, אורך ושובל משתנים לפי מבנה הגוף ולפי מה שנוח לך.</p>
       </div>
       <ul class="gowns">
-        <li><figure class="gown"><img src="{gown(G['vintage'])}" alt="שמלת כלה בוהו תחרת וינטאג' וטול" loading="lazy" width="760" height="1140"><figcaption>תחרת וינטאג׳ וטול מנוקד</figcaption></figure></li>
+        <li><figure class="gown"><img src="{gown(G['vintage'])}" alt="שמלת כלה בוהו תחרת וינטאג׳ וטול" loading="lazy" width="760" height="1140"><figcaption>תחרת וינטאג׳ וטול מנוקד</figcaption></figure></li>
         <li><figure class="gown"><img src="{gown(G['heart'])}" alt="שמלת בוהו תחרה וטול עם מחשוף לב" loading="lazy" width="760" height="1140"><figcaption>מחוך לב חצי שקוף וגב פתוח</figcaption></figure></li>
         <li><figure class="gown"><img src="{gown(G['train'])}" alt="שמלת כלה בוהו מתחרה עם שובל ארוך" loading="lazy" width="760" height="1140"><figcaption>מחוך לב ושובל ארוך</figcaption></figure></li>
         <li><figure class="gown"><img src="{gown(G['aline'])}" alt="שמלת כלה בוהו בגזרת A-line עם שסע עמוק" loading="lazy" width="760" height="1140"><figcaption>גזרת A-line עם שסע עמוק</figcaption></figure></li>
@@ -381,7 +381,7 @@ P2 = page(
         </dl>
       </div>
       <figure class="hero-figure">
-        <img src="{gown(G['vintage'],1000,1500)}" alt="שמלת כלה בוהו עם שרוולים רחבים מתחרת וינטאג'" width="1000" height="1500" fetchpriority="high">
+        <img src="{gown(G['vintage'],1000,1500)}" alt="שמלת כלה בוהו עם שרוולים רחבים מתחרת וינטאג׳" width="1000" height="1500" fetchpriority="high">
         <figcaption>תחרת וינטאג׳ וטול מנוקד, עם שרוולים רחבים ושקופים.</figcaption>
       </figure>
     </div>
@@ -421,12 +421,12 @@ P2 = page(
         <p class="lede">אלה דגמים קיימים בסטודיו. כל אחד מהם ניתן להתאמה, וגם דגם בלי שרוולים יכול לקבל אותם.</p>
       </div>
       <ul class="gowns">
-        <li><figure class="gown"><img src="{gown(G['vintage'])}" alt="שמלת כלה בוהו תחרת וינטאג' עם שרוולים רחבים" loading="lazy" width="760" height="1140"><figcaption>תחרת וינטאג׳ וטול מנוקד · שרוולים רחבים ושקופים</figcaption></figure></li>
+        <li><figure class="gown"><img src="{gown(G['vintage'])}" alt="שמלת כלה בוהו תחרת וינטאג׳ עם שרוולים רחבים" loading="lazy" width="760" height="1140"><figcaption>תחרת וינטאג׳ וטול מנוקד · שרוולים רחבים ושקופים</figcaption></figure></li>
         <li><figure class="gown"><img src="{gown(G['train'])}" alt="שמלת כלה בוהו עם שרוולי תחרה ושובל ארוך" loading="lazy" width="760" height="1140"><figcaption>מחוך לב ושובל ארוך · שרוולי תחרה על הזרוע</figcaption></figure></li>
         <li><figure class="gown"><img src="{gown(G['sleeves'])}" alt="שמלת כלה תחרה רומנטית עם שרוולים קצרים" loading="lazy" width="760" height="1140"><figcaption>תחרה קלילה · שרוולים קצרים וקפלים במותן</figcaption></figure></li>
         <li><div class="gown-more">
           <p class="t">ויש גם בלי.</p>
-          <p>אם התאהבת בדגם ללא שרוולים, אפשר להוסיף שרוולים בתפירה.</p>
+          <p>אם התאהבת בדגם ללא שרוולים, אפשר להוסיף לו שרוולים.</p>
           <a class="btn btn-secondary" href="#פגישה">לקבוע פגישה</a>
         </div></li>
       </ul>
@@ -437,7 +437,7 @@ P2 = page(
 
 {faq(P2_FAQ, "שאלות על שרוולים", "מה כלות שואלות")}
 
-{cta("ספרי לנו איזה שרוול מדברת אלייך, ונגיד לך בדיוק אילו דגמים כדאי למדוד.")}''',
+{cta("ספרי לנו איזה שרוול מדבר אלייך, ונגיד לך בדיוק אילו דגמים כדאי למדוד.")}''',
  ld(BIZ) + "\n" + ld(faq_schema(P2_FAQ)))
 
 (BASE / 'shmalot-im-sharvulim.html').write_text(P2, encoding='utf-8')
